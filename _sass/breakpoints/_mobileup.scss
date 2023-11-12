@@ -21,8 +21,19 @@ body {
 	margin: 0;
 
 	p,
-	ul {
+	ul,
+	.cp_embed_wrapper {
 		margin: 0 0 2rem;
+	}
+
+	& > svg {
+		fill: black;
+		position: fixed;
+		width: 110vw;
+		opacity: .1;
+		right: -40%;
+		top: -5%;
+		z-index: -1;
 	}
 }
 
@@ -74,23 +85,28 @@ MENU STYLING
 	z-index: 1;
 
 	ul {
+		background: darken($tertiary-color, 30%); 
 		margin: 0;
-		padding: 0;
+		padding: 0.75em 0;
 		width: 100%;
 		display: block;
 		list-style: none;
+		border-bottom: solid 2px $secondary-color;
 
 		li {
 			width: 100%;
 			display: block;
-			background: $background-color;
-			border-bottom: 2px solid lighten($background-color, 5%);
+			border-bottom: 2px solid darken($tertiary-color, 20%);
 
 			a {
 				color: white;
 				text-decoration: none;
 				display: block;
 				padding: 5px 2rem;
+			}
+
+			&:last-child {
+				border: none;
 			}
 		}
 	}
@@ -112,6 +128,7 @@ MENU STYLING
 }
 
 .nav-toggle {
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -122,18 +139,18 @@ MENU STYLING
 	float: right;
 	line-height: 2em;
 	margin-top: 0.5em;
-	background-color: $background-color;
+	background-color: $tertiary-color;
 	border-radius: 4px;
 	padding: 0 0.5em;
 	color: white;
 	text-decoration: none;
 	position: relative;
-	right: 2rem;
-	transition: all 0.2s ease-in-out;
+	right: 20px;
+	transition: all 0.1s ease-in-out;
 
 	&:hover {
 		color: white;
-		background-color: darken($background-color, 10%);
+		background-color: darken($tertiary-color, 10%);
 	}
 }
 
@@ -153,6 +170,14 @@ dt {
 
 dd {
 	margin: 0 0 1.5rem;
+}
+
+.post ul,
+.post ol {
+	li p {
+		margin: 0 !important;
+		width: auto !important; 
+	}
 }
 
 .post ul ul,
@@ -179,34 +204,70 @@ PAGE STYLES
 HEADER STYLING
 ***************/
 
+.logo-image {
+	display: none;
+}
+
 .header {
-	background-color: $background-color;
-	background-image: url("../img/touring.jpg");
+	background-color: darken($tertiary-color, 25%);
 	background-size: cover;
 	background-position: center center;
 	color: white;
 	padding: 0;
 	height: 3em;
+	position: relative;
+
+	.video {
+		position: absolute;
+		inset: 0;
+		opacity: 0.25;
+		width: 100%;
+		overflow: hidden;
+
+		video {
+			width: 100%;
+			object-fit: cover;
+			translate: 0 -30%;
+		}
+	}
 
 	.container {
 		padding: 0;
 		max-width: 100%;
+		overflow: visible !important;
 	}
 
 	h1 {
 		margin: 0;
 		float: left;
-		padding-left: 2rem;
+		padding-left: 20px;
 		font-size: 1em;
 		line-height: 3em;
 		font-family: $sans-serif;
-		font-weight: 800;
+		font-weight: normal;
 		text-transform: uppercase;
+		letter-spacing: 0.375em;
 
 		a {
 			color: white;
 			text-decoration: none;
+			position: relative;
+
+			&:after {
+				content: '';
+				position: absolute;
+				right: 0.35em;
+				bottom: -0.25em;
+				height: 2px;
+				background-color: $quaternary-color;
+				width: 1.55em; 
+			}
+
 		}
+	}
+
+	svg {
+		display: none;
 	}
 }
 
@@ -232,7 +293,7 @@ POST STYLING
 			content: "";
 			position: absolute;
 			top: -1.25em;
-			background: $background-color;
+			background: $tertiary-color;
 			display: block;
 			height: 2px;
 			width: 150px;
@@ -243,7 +304,7 @@ POST STYLING
 			content: "";
 			position: absolute;
 			bottom: -1.25em;
-			background: $background-color;
+			background: $tertiary-color;
 			display: block;
 			height: 2px;
 			width: 150px;
@@ -284,7 +345,7 @@ POST STYLING
 	}
 
 	.dropcap {
-		color: $primary-color;
+		color: $secondary-color;
 		margin-right: 0.45rem;
 	}
 
@@ -305,6 +366,7 @@ POST NAV STYLING
 .postNav {
 	border-top: 1px solid darken(white, 10%);
 	border-bottom: 1px solid darken(white, 10%);
+	padding-block: 0.5em;
 	overflow: hidden;
 
 	.prev,
@@ -381,7 +443,8 @@ FOOTER STYLING
 	clear: both;
 
 	.container {
-		border-top: 4px solid darken(white, 15%);
+		font-family: "Roboto", Helvetica, Arial, sans-serif;
+		border-top: 1px solid darken(white, 15%);
 		padding-top: 0.5em;
 		max-width: 90%;
 	}
@@ -419,7 +482,7 @@ FOOTER STYLING
 						height: 100%;
 
 						.outer-shape {
-							fill: $primary-color;
+							fill: $tertiary-color;
 						}
 
 						.inner-shape {
@@ -432,7 +495,7 @@ FOOTER STYLING
 					a {
 						svg {
 							.outer-shape {
-								fill: darken($primary-color, 10%);
+								fill: darken($tertiary-color, 10%);
 							}
 						}
 					}
@@ -470,7 +533,7 @@ POST LIST STYLING
 			position: absolute;
 			bottom: -2rem;
 			left: 0;
-			background: darken(white, 10%);
+			background: $secondary-color;
 			height: 2px;
 			width: 60px;
 		}
@@ -504,6 +567,10 @@ DARK THEME STYLING
 	body {
 		background-color: $black;
 		color: white;
+
+		& > svg {
+			fill: white;
+		}
 	}
 
 	.posts article .date {
@@ -511,11 +578,11 @@ DARK THEME STYLING
 	}
 
 	.postNav {
-		border-top: 1px solid lighten(black, 10%);
-		border-bottom: 1px solid lighten(black, 10%);
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
 	}
 
 	.footer .container {
-		border-top-color: lighten(black, 10%);
+		border-top-color: white;
 	}
 }

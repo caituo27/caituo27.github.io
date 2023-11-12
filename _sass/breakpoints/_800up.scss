@@ -4,25 +4,34 @@ GLOBAL STYLES
 
 body {
 	font-size: 125%;
+
+	& > svg {
+		width: 50em;
+		top: auto;
+		bottom: -25%;
+		right: 70%;
+		translate: 100% 0;
+	}
 }
 
 .content {
+	$offset: 2em;
 	padding-top: 0;
 	position: relative;
 	z-index: 1;
 
 	&:after {
-		z-index: -1;
 		background: white;
+		top: -$offset;
 		content: "";
 		display: block;
 		width: 100%;
 		height: 10em;
 		position: absolute;
-		top: -2em;
 		left: 0;
 		transform: skewY(-2deg);
 		transform-origin: bottom left;
+		z-index: -1;
 	}
 }
 
@@ -58,6 +67,35 @@ HOMEPAGE STYLING
 HEADER STYLING
 ***************/
 
+.logo-image {
+	display: block;
+	position: fixed;
+	left: 0;
+	width: 4em;
+	top: 0;
+	z-index: 10;
+
+	a,
+	svg {
+		display: block;
+		width: 100%;
+	}
+
+	a {
+		background: $tertiary-color;
+		filter: drop-shadow(0 0 0.75rem black);
+
+		&:hover {
+			opacity: 0.9
+		}
+	}
+
+	svg {
+		fill: white;
+		opacity: 0.5;
+	}
+}
+
 .header {
 	height: 15em;
 	position: relative;
@@ -67,14 +105,26 @@ HEADER STYLING
 		position: relative;
 		top: 50%;
 		transform: translateY(-50%);
-		max-width: 800px;
+		max-width: 880px;
 		overflow: hidden;
+
+		.inner {
+			width: 75%;
+			float: none;
+			margin: 0 auto;
+
+			&::after {
+				content: "";
+				clear: both;
+				display: block;
+			}
+
+		}
 	}
 
 	h1 {
-		font-size: 3em;
+		font-size: 1.5em;
 		line-height: 1;
-		letter-spacing: -3px;
 		padding-left: 0;
 	}
 
@@ -83,6 +133,7 @@ HEADER STYLING
 		clear: left;
 
 		ul {
+			background-color: transparent;
 			margin: 0;
 
 			li {
@@ -109,6 +160,17 @@ HEADER STYLING
 				}
 			}
 		}
+	}
+
+	svg {
+		display: block;
+		fill: white;
+		position: absolute;
+		width: 20em;
+		opacity: 0.1;
+		top: -25%;
+		left: 50%;
+		translate: 35% 0;
 	}
 }
 
@@ -138,8 +200,19 @@ MENU STYLING
 			max-height: none;
 		}
 
+		ul {
+			border: none;
+		}
+
 		ul li a {
 			display: inline-block;
+		}
+
+		ul li:first-child {
+
+			&, a {
+				padding-left: 0;
+			}
 		}
 	}
 }
@@ -165,7 +238,9 @@ POST STYLING
 	ul,
 	ol,
 	dl,
-	.pageTitle {
+	.pageTitle,
+	.demoBox,
+	.browserSupport__list {
 		width: 75%;
 		float: none;
 		margin: 0 auto 2rem;

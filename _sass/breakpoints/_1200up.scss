@@ -1,7 +1,13 @@
 body {
   font-size: 137.5%;
+
+  & > svg {
+		right: 50%;
+	}
+
 }
 
-.container {
+.container,
+.header .container {
   max-width: 990px;
 }
