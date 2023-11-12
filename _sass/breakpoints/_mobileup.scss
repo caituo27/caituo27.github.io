@@ -4,6 +4,7 @@ GLOBAL STYLES
 
 html {
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 *,
@@ -26,14 +27,14 @@ body {
 		margin: 0 0 2rem;
 	}
 
-	& > svg {
+	.content > svg {
 		fill: black;
 		position: fixed;
 		width: 110vw;
 		opacity: .1;
 		right: -40%;
 		top: -5%;
-		z-index: -1;
+		pointer-events: none;
 	}
 }
 
@@ -198,6 +199,11 @@ PAGE STYLES
 
 .content {
 	padding-top: 1em;
+	
+	.container {
+		translate: 0;
+	}
+
 }
 
 /***************
@@ -568,7 +574,7 @@ DARK THEME STYLING
 		background-color: $black;
 		color: white;
 
-		& > svg {
+		.content > svg {
 			fill: white;
 		}
 	}
