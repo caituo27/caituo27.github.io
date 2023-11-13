@@ -31,11 +31,23 @@ body {
 		fill: black;
 		position: fixed;
 		width: 110vw;
-		opacity: .1;
+		opacity: 0.05;
 		right: -40%;
 		top: -5%;
 		pointer-events: none;
 	}
+}
+
+@media (max-height: 836px) {
+
+	body {
+
+		.content > svg {
+			display: none;
+		}
+
+	}
+
 }
 
 // Text Selection Styling
@@ -576,6 +588,7 @@ DARK THEME STYLING
 
 		.content > svg {
 			fill: white;
+			opacity: 0.1;
 		}
 	}
 
