@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contact Long Haul,
+sitemap:
+  exclude: 'yes'
 ---
 
 <div id="contact">
