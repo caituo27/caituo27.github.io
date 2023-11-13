@@ -19,7 +19,7 @@ The easiest example to help you understand this property is through a simple can
 
 If you are using a touch screen you can try it and see how it works differently.  
 
-<iframe src="../../assets/demos/canvas-drawing/demo1.html" width="100%" height="350px" scrolling="no"></iframe>
+<iframe src="https://briantree.se/assets/demos/canvas-drawing/demo1.html" width="100%" height="350px" scrolling="no"></iframe>
 
 ## CSS touch-action to the Rescue
 
@@ -33,7 +33,7 @@ touch-action: none;
 
 Regardless if you're using your mouse or your finger on touch devices it should now work the same. \*\*NOTE - if you are using anything other than ie10 or ie11 on your touch device the demo will not work.  
 
-<iframe src="../../assets/demos/canvas-drawing/demo2.html" width="100%" height="350px" scrolling="no"></iframe>
+<iframe src="https://briantree.se/assets/demos/canvas-drawing/demo2.html" width="100%" height="350px" scrolling="no"></iframe>
 
 ## CSS touch-action Values
 
