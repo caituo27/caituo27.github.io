@@ -1,6 +1,7 @@
 .post {
 
     .demoBox {
+        background: white;
         border: solid 1px #ccc;
         padding: 1.5rem;
         margin: 1.5rem 0;
@@ -101,6 +102,10 @@ DARK THEME STYLING
         .demoBox,
         iframe[src*="youtube.com"] {
             border-color: white
+        }
+
+        .demoBox {
+            background: black;
         }
 
     }
