@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Canvas Drawing Example</title>
+        <style>
+            * { margin: 0; }
+        </style>
+    </head>
+    <body>
+        <canvas id="window" width="2000px" height="350px"></canvas>
+        <script>
+            var canvas = document.getElementById('window');
+            var context = canvas.getContext('2d');
+            context.fillStyle = 'red';
+    
+            canvas.addEventListener('mousemove', paint, false);
+    
+            function paint(event) {
+                context.fillRect(event.clientX, event.clientY, 15, 15);
+            }
+        </script>
+    </body>
+</html>
