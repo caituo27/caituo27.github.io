@@ -32,11 +32,6 @@
 		content="{{ '/assets/img/' | append:page.image | absolute_url }}"
 		property="og:image"
 	/>
-	{%- else -%}
-	<meta
-		content="{{ '/assets/img/touring.jpg' | absolute_url }}"
-		property="og:image"
-	/>
 	{%- endif -%}
 
 	<!-- Twitter Cards -->
@@ -57,11 +52,6 @@
 	<meta
 		name="twitter:image:src"
 		content="{{ '/assets/img/' | append:page.image | absolute_url }}"
-	/>
-	{%- else -%}
-	<meta
-		name="twitter:image:src"
-		content="{{ '/assets/img/touring.jpg' | absolute_url }}"
 	/>
 	{%- endif -%}
 
