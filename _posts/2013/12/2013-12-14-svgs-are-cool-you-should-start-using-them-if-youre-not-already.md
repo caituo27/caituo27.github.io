@@ -91,7 +91,7 @@ This too is pretty straight forward, you just save your image as an SVG and then
 #### Demo:
 
 <div class="demoBox exampleSvg" style="text-align: center;">
-    <img src="https://briantree.se/wp-content/uploads/2014/01/graphic.svg" alt="SVG as an inline image">
+    <img src="../../assets/img/content/uploads/2014/01/graphic.svg" alt="SVG as an inline image">
 </div>
 
 ## Embedding an SVG using an iframe tag {#section-3}
@@ -112,7 +112,7 @@ SVGs can be embedded directly into web pages, one way to do this is to add it to
 .exampleSvg__iframe { text-align: center; } .exampleSvg__iframe iframe { border: none; height: 140px; margin: 0; width: 171px; overflow: hidden; }
 </style>
 
-<div class="demoBox exampleSvg__iframe"><iframe src="https://briantree.se/wp-content/uploads/2014/01/graphic.svg">Content for browsers that don&#8217;t support SVG</iframe></div>
+<div class="demoBox exampleSvg__iframe"><iframe src="../../assets/img/content/uploads/2014/01/graphic.svg">Content for browsers that don&#8217;t support SVG</iframe></div>
 
 ## Embedding an SVG using an object tag {#section-4}
 
@@ -132,7 +132,7 @@ Another method for embedding an SVG directly into a web page is to use an `<obje
 .exampleSvg__object { text-align: center; } .exampleSvg__object object { margin: 0; }
 </style>
 
-<div class="demoBox exampleSvg__object"><object data="https://briantree.se/wp-content/uploads/2014/01/graphic.svg" type="image/svg+xml" width="300" height="150">Content for browsers that don’t support SVG</object></div>
+<div class="demoBox exampleSvg__object"><object data="../../assets/img/content/uploads/2014/01/graphic.svg" type="image/svg+xml" width="300" height="150">Content for browsers that don’t support SVG</object></div>
 
 ## Embedding an SVG using an embed tag {#section-5}
 
