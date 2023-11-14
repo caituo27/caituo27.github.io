@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Your New Jekyll Site
+sitemap:
+  exclude: 'yes'
 ---
 
 <div id="articles">
