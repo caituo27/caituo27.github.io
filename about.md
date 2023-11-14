@@ -6,7 +6,7 @@ title: A Little About Me
 <div class="post">
 	<h1 class="pageTitle">A Little About Me</h1>
 	<p class="intro">
-		<span class="dropcap">H</span>ello, my name is Brian Treese. First and foremost I am a husband to my beautiful, amazing wife Jennifer and a father to my son Avery and Daughter Dakota. I am also the Chief of User Experience At SoCreate where I work with a very talented and all around great group of people.
+		<span class="dropcap">H</span>ello, my name is Brian Treese. First and foremost I am a husband to my beautiful, amazing wife Jennifer and a father to my son Avery and daughter Dakota. I am also the Chief of User Experience At SoCreate where I work with a very talented and all around great group of people.
 	</p>
 	<img src="{{ '/assets/img/family.jpg' | relative_url }}" alt="Treese Family">
 	<p>
