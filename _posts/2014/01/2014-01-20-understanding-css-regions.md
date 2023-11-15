@@ -12,7 +12,7 @@ tags:
   - "javascript"
 ---
 
-<p class="intro"><span class="dropcap">S</span>ome of my favorite parts of CSS3 are those concerning layout. So far I've explored <a href="http://briantree.se/flexbox-modern-web-layouts-simplified/">Flexbox</a> and <a href="http://briantree.se/all-you-need-to-know-about-css3-multiple-columns/">Columns</a>, but today I'm going to dig into CSS Regions.</p>
+<p class="intro"><span class="dropcap">S</span>ome of my favorite parts of CSS3 are those concerning layout. So far I've explored <a href="/flexbox-modern-web-layouts-simplified/">Flexbox</a> and <a href="/all-you-need-to-know-about-css3-multiple-columns/">Columns</a>, but today I'm going to dig into CSS Regions.</p>
 
 ## What the Heck are They?
 
