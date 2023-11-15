@@ -11,7 +11,7 @@ tags:
   - "four-value-syntax"
 ---
 
-<p class="intro"><span class="dropcap">A</span>fter writing my post <a href="http://briantree.se/quick-tip-02-use-css-calc-properly-position-background-images/">Use CSS Calc to Properly Position Background Images</a> I had some folks point out that you can now use the new Four-Value syntax for the background-position property to achieve the same effect. I was absolutely blown away when I saw that this was finally possible. I'm mean, this just makes sense and it's something that I've wanted for years.</p>
+<p class="intro"><span class="dropcap">A</span>fter writing my post <a href="/quick-tip-02-use-css-calc-properly-position-background-images/">Use CSS Calc to Properly Position Background Images</a> I had some folks point out that you can now use the new Four-Value syntax for the background-position property to achieve the same effect. I was absolutely blown away when I saw that this was finally possible. I'm mean, this just makes sense and it's something that I've wanted for years.</p>
 
 ## Here's How You Use it
 

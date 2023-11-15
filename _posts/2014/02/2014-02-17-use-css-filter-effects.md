@@ -131,7 +131,7 @@ img {
 
 ### drop-shadow()
 
-In an [earlier post](http://briantree.se/difference-css-box-shadow-filter-drop-shadow/) I explain the difference between filter: drop-shadow() and box-shadow so if you want to know the difference between the two you should read that. For the purposes of this article you should just know the drop shadow function exists. Like other image editing software you can specify an x and y offset, a blur radius, a spread radius, and a color value for the shadow.
+In an [earlier post](/difference-css-box-shadow-filter-drop-shadow/) I explain the difference between filter: drop-shadow() and box-shadow so if you want to know the difference between the two you should read that. For the purposes of this article you should just know the drop shadow function exists. Like other image editing software you can specify an x and y offset, a blur radius, a spread radius, and a color value for the shadow.
 
 - `offset-x` — A required value that specifies the horizontal distance the shadow will be offset and a negative value will place the shadow to the left of the element
 

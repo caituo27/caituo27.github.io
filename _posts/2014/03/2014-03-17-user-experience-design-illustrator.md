@@ -67,7 +67,7 @@ Click the symbol panel options icon in the top right side of the panel
 
 Global color swatches are awesome. Often, when discussing design mock-ups we decide that we need to globally change colors across many different layers and documents. This takes a ton of time sifting through designs and probably missing some elements that need to be changed. With Illustrator's global color swatches this can be handled with much less effort and pain.
 
-I covered this in an [earlier article](http://briantree.se/quick-tip-10-using-global-swatches-illustrator/), so if you'd like to learn about it you can check it out [here](http://briantree.se/quick-tip-10-using-global-swatches-illustrator/).
+I covered this in an [earlier article](/quick-tip-10-using-global-swatches-illustrator/), so if you'd like to learn about it you can check it out [here](/quick-tip-10-using-global-swatches-illustrator/).
 
 ## Dynamic Text Buttons
 

@@ -52,7 +52,7 @@ This is an example using `:root` in an embedded SVG in which it will target the 
 
 ## In Conclusion
 
-I've heard some people mention that you should actually be using :root instead of HTML by default now. I'm not sure if I'm sold on this yet but it does make sense if you consider the future of [Web Components](http://briantree.se/gettin-modular-web-components/). Besides SVG and XML, Web Components will also use CSS. They will allow us to encapsulate modules of markup, functionality, and style into their own components. Using :root would allow us to easily target the root of those elements regardless of what their outer most tag is.
+I've heard some people mention that you should actually be using :root instead of HTML by default now. I'm not sure if I'm sold on this yet but it does make sense if you consider the future of [Web Components](/gettin-modular-web-components/). Besides SVG and XML, Web Components will also use CSS. They will allow us to encapsulate modules of markup, functionality, and style into their own components. Using :root would allow us to easily target the root of those elements regardless of what their outer most tag is.
 
 * * *
 

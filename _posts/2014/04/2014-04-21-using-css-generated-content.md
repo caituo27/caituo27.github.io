@@ -96,11 +96,11 @@ a:after {
 #demo3 a:after { border: solid 1px red; content: " ("attr(href)")"; }
 </style>
 
-<div id="demo3" class="demoBox content-attribute"><a href="https://briantree.se">My Website</a></div>
+<div id="demo3" class="demoBox content-attribute"><a href="/">My Website</a></div>
 
 ## You Can Use CSS Counters
 
-You can generate cool customized listings using [CSS Counters](https://briantree.se/make-count-css-counters/). To learn even more about them you can check out my previous article "[Make it Count with CSS Counters](https://briantree.se/make-count-css-counters/)".
+You can generate cool customized listings using [CSS Counters](/make-count-css-counters/). To learn even more about them you can check out my previous article "[Make it Count with CSS Counters](/make-count-css-counters/)".
 
 ```css
 .tableOfContents ol { 
