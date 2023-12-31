@@ -20,19 +20,19 @@ Ok, so what is the Breakpoint Observer? Well, it’s a utility that is part of t
 Ok, here we have this layout with our navigation next to our main content.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-visible.png' | relative_url }}" alt="Large viewport layout with sidebar visible" width="1920" height="1080" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-visible.png' | relative_url }}" alt="Large viewport layout with sidebar visible" width="1672" height="1578" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 And, when we resize this smaller, the menu is hidden.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden.png' | relative_url }}" alt="Small videport layout with sidebar hidden" width="1920" height="1080" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden.png' | relative_url }}" alt="Small videport layout with sidebar hidden" width="1140" height="1544" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 We can toggle the sidebar display by clicking the "Show Menu" button in the upper right corner.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden-then-visible.png' | relative_url }}" alt="Small videport layout with sidebar visible" width="1920" height="1080" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden-then-visible.png' | relative_url }}" alt="Small videport layout with sidebar visible" width="1150" height="1434" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 So far, so good.
@@ -249,13 +249,13 @@ export class NavComponent {
 Now we see our red bar at the bottom with the currently matched range. 
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-05/currently-matched-breakpoint-small.png' | relative_url }}" alt="Small breakpoint matched in narrow viewports" width="1920" height="1080" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/currently-matched-breakpoint-small.png' | relative_url }}" alt="Small breakpoint matched in narrow viewports" width="1234" height="178" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 And, when we resize, it gets updated properly based on the media query that matches.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-05/currently-matched-breakpoint-medium.png' | relative_url }}" alt="Medium breakpoint matched after resizing larger" width="1920" height="1080" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/currently-matched-breakpoint-medium.png' | relative_url }}" alt="Medium breakpoint matched after resizing larger" width="2172" height="308" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 Pretty cool.
@@ -263,4 +263,6 @@ Pretty cool.
 Ok, so I hope that helps for those of you out there who have a need for this type of thing in Angular. It’s definitely come in handy for me in the past. Be sure to keep an eye out for more videos in the future showcasing some of the power of the CDK.
 
 ## Want to See It in Action?
-Check out the demo code and examples of these techniques in the in the [stackblitz example](https://stackblitz.com/edit/stackblitz-starters-klqbbi?file=src%2Fnav%2Fnav.component.ts). If you have any questions or thoughts, don’t hesitate to leave a comment.
+Check out the demo code and examples of these techniques in the in the stackblitz example below. If you have any questions or thoughts, don’t hesitate to leave a comment.
+
+<iframe src="https://stackblitz.com/edit/stackblitz-starters-klqbbi?embed=1&file=src%2Fnav%2Fnav.component.ts" style="height: 500px; width: 100%; margin-bottom: 1.5em; display: block;"> 

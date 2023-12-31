@@ -93,4 +93,6 @@ So hopefully that helps you out along your way and gives you some options when y
 
 ### Want to See It in Action?
 
-Check out the demo code and examples of these techniques in the in the [stackblitz example](https://stackblitz-starters-gn5o3d.stackblitz.io). If you have any questions or thoughts, don’t hesitate to leave a comment.
+Check out the demo code and examples of these techniques in the in the stackblitz example below. If you have any questions or thoughts, don’t hesitate to leave a comment.
+
+<iframe src="https://stackblitz.com/edit/stackblitz-starters-gn5o3d?file=src%2Fform%2Fform.component.ts" style="height: 500px; width: 100%; margin-bottom: 1.5em; display: block;"> 
