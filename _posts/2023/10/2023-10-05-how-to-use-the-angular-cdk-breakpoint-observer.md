@@ -13,7 +13,7 @@ categories:
 
 To start off, we really should avoid doing this type of thing if possible. If we can simply change some style with a media query in CSS, that’s going to provide the best experience. This technique should really only be used when style isn’t the only thing that needs to be changed. Like, when logic or functionality is involved.
 
-## What is the Angular CDK Breakpoint Observer
+## What is the Angular CDK Breakpoint Observer?
 
 Ok, so what is the Breakpoint Observer? Well, it’s a utility that is part of the Angular CDK or Component Development Kit. And, you can probably guess by its name, but it allows us to monitor media queries programmatically and then react to them as needed. It’s probably easiest to understand through an example, so, let’s look at one.
 
