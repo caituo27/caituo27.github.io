@@ -6,13 +6,13 @@ categories:
   - "angular"
 ---
 
-<p class="intro"><span class="dropcap">I</span>n the latest version of Angular, we’re getting what is known as the new Control Flow syntax for our component templates. It will replace older directives for things like ng if/else, ng switch, and ng for. In this post we’re gonna learn exactly what this change means for us and how to use it. Alright, let’s get to it.</p>
+<p class="intro"><span class="dropcap">I</span>n the latest version of Angular, we’re getting what is known as the new Control Flow syntax for our component templates. It will replace older directives for things like <code>*ngIf/else</code>, <code>ngSwitch</code>, and <code>*ngFor</code>. In this post we’re going to learn exactly what this change means for us and how to use it. Alright, let’s get to it.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nUEERAOZKwg?si=CAORJjXKQtiwxFXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 So, for those of us that are used to building things in Angular, we’re used to the structural directive `*ngIf`, and the concept of using an `ng-template` for the else condition when needed. Well, we don’t need this anymore with the new Control Flow syntax. Also, we no longer need to import the `CommonModule` to use them. Let’s take a look at an example.
 
-## Angular Control Flow Syntax for If/Else Conditions
+## Angular Control Flow Syntax for if/else Conditions
 
 Ok, here in our component we have this player object consisting of some data about NBA player LeBron James.
 
@@ -58,7 +58,7 @@ And, when we save, now we can see that it’s properly removed when no data is p
 <img src="{{ '/assets/img/content/uploads/2023/11-03/no-player.png' | relative_url }}" alt="Player not showing" width="1816" height="772" style="width: 100%; height: auto;">
 </div>
 
-If we want to show a message when we have no data, we need to add an else statement. To do this, we just need to add another `@` symbol, then the word else, then a new set of curly braces where we wrap our message.
+If we want to show a message when we have no data, we need to add an else statement. To do this, we just need to add another `@` symbol, then the word "else", then a new set of curly braces where we wrap our message.
 
 ```html
 @if (player) {
@@ -74,7 +74,7 @@ Then, when we save this, we see that our message is properly displayed because w
 <img src="{{ '/assets/img/content/uploads/2023/11-03/empty-message.png' | relative_url }}" alt="Player not showing" width="1816" height="772" style="width: 100%; height: auto;">
 </div>
 
-So that’s the new syntax replacing the old ngIf/else.
+So that’s the new syntax replacing the old `*ngIf/else`.
 
 ## Angular Control Flow Syntax for Switch Statements
 
@@ -148,7 +148,7 @@ Now we can simply copy all of this, paste, then change the case to Kareem, and t
 }
 ```
 
-And then finally, we can add our default case. We’ll add the player component one last time here and will pass it player three for Karl Malone.
+And then finally, we can add our default case. We’ll add the player component one last time here and we'll pass it player three for Karl Malone.
 
 ```html
 @switch (options.value) {
@@ -186,7 +186,7 @@ So that’s the new switch syntax, up next, we have the final example in this po
 
 ## Angular Control Flow Syntax for For Loops
 
-For for loops in angular we used to need an element or `*ngContainer` for our `*ngFor` directive. Then we would need to create a variable from a list of options, and then much of the time, we needed to add a `trackby` function to help with performance. Well, it looks similar now but a little different.
+When adding for loops in angular we used to need an element or `ng-container` for our `*ngFor` directive. Then we would need to create a variable from a list of options, and then much of the time, we needed to add a `trackby` function to help with performance. Well, it looks similar now but a little different.
 
 In this example, our list of players is larger and consists of all of these items.
 
@@ -292,7 +292,7 @@ We want to list these players out in the template with a for loop. So, we start 
 }
 ```
 
-Now, one of the key differences in the new syntax is that a track expression is mandatory. So, if I were to save this, we get an error letting us know what we’re missing.
+Now, one of the key differences in the new syntax is that a track expression is mandatory. So, if we were to save this, we get an error letting us know what we’re missing.
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2023/11-03/track-expression-error.png' | relative_url }}" alt="Track expression error" width="1831" height="948" style="width: 100%; height: auto;">
@@ -324,6 +324,9 @@ And now when we save, there’s our list of players.
 Now, what if our list was empty and we want to show a message? Well let’s clear out our list data. If we were to save right now, we'd just have a blank screen. To show a message in this case, back in our template we can add an empty scenario for our for loop. And inside, we can add our message.
 
 ```html
+@for (player of players) {
+    ...
+}
 @empty {
     <p>There are no players to display at this time</p>
 }
@@ -339,7 +342,14 @@ Pretty easy right?
 
 ### Angular For Loop Additional Properties
 
-Now, for those of you familiar with the old `*ngFor`, you may be wondering about all of the old properties that we had available like `index`, `first`, `last`, `even`, `odd`, and `count`.
+Now, for those of you familiar with the old `*ngFor`, you may be wondering about all of the old properties that we had available:
+
+- `index`
+- `first`
+- `last`
+- `even`
+- `odd`
+- `count`
 
 Well, they all still exist in the new syntax too. We just add them much like we did before.
 
@@ -358,7 +368,7 @@ We use the word "let" followed by the variable name we want to use, then equals 
 }
 ```
 
-So, after adding all of these, I want to display the count in a message before the first item in the list. So I add a condition for the first item, then add my message with the string interpolated value for the list count.
+So, after adding all of these, let's say we want to display the count in a message before the first item in the list. So we add a condition for the first item, then add a message with the string interpolated value for the list count.
 
 ```html
 @if (first) {
@@ -372,7 +382,7 @@ When we save, now we can see the message with the count before all items.
 <img src="{{ '/assets/img/content/uploads/2023/11-03/count-above-player-list.png' | relative_url }}" alt="Count above player list" width="1633" height="544" style="width: 100%; height: auto;">
 </div>
 
-And, let’s say I want to display the list item number next to the player name. We can do this by passing the item index to the player component.
+And, let’s say we want to display the list item number next to the player name. We can do this by passing the item index to the player component.
 
 ```html
 <app-player
@@ -382,7 +392,7 @@ And, let’s say I want to display the list item number next to the player name.
 </app-player>
 ```
 
-Internally, that component adds one to its index value if it has it and places the string interpolated value before the name.
+Internally, this component adds one to its index value and places the string interpolated value before the name.
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2023/11-03/player-index.png' | relative_url }}" alt="Player index" width="1625" height="710" style="width: 100%; height: auto;">
@@ -427,13 +437,13 @@ And, when we scroll down to the bottom, the last item gets a blue border.
 <img src="{{ '/assets/img/content/uploads/2023/11-03/last-list-item.png' | relative_url }}" alt="Last styles" width="1632" height="623" style="width: 100%; height: auto;">
 </div>
 
-Pretty straight forward right. So I think this is a pretty nice change. It’s pretty similar to what we’re used to but it’s a little more simple. It doesn’t require as many elements, `*ngContainer`s, and `ng-template`s, and it also doesn’t require any imports which is pretty nice.
+Pretty straight forward right. So I think this is a pretty nice change. It’s pretty similar to what we’re used to but it’s a little more simple. It doesn’t require as many elements, `ng-container`s, and `ng-template`s, and it also doesn’t require any imports which is pretty nice.
 
 I guess, some things are simpler, some things are easier, and some things are just different.
 
 ## The Angular Control Flow Migration Schematic
 
-For those of you who may be worried about making this change to an existing codebase, don’t be. To migrate all of your existing `*ngIf`s, `[ngSwitch]`s, and `*ngFor`s, you can simply use the migration schematic which should hopefully update them without much work.
+For those of you who may be worried about making this change to an existing codebase, don’t be. To migrate all of your existing `*ngIf`s, `ngSwitch`s, and `*ngFor`s, you can simply use the migration schematic which should hopefully update them without much work.
 
 ```shell
 ng g @angular/core:control-flow-migration
