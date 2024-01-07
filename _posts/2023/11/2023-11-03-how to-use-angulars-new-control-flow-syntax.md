@@ -6,11 +6,11 @@ categories:
   - "angular"
 ---
 
-<p class="intro"><span class="dropcap">I</span>n the latest version of Angular, we’re getting what is known as the new Control Flow syntax for our component templates. It will replace older directives for things like ng if/else, ng switch, and ng for. In this video we’re gonna learn exactly what this change means for us and how to use it. Alright, let’s get to it.</p>
+<p class="intro"><span class="dropcap">I</span>n the latest version of Angular, we’re getting what is known as the new Control Flow syntax for our component templates. It will replace older directives for things like ng if/else, ng switch, and ng for. In this post we’re gonna learn exactly what this change means for us and how to use it. Alright, let’s get to it.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nUEERAOZKwg?si=CAORJjXKQtiwxFXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-So, for those of us that are used to building things in Angular, we’re used to the structural directive `*ngIf`, and the concept of using an ng template for the else condition when needed. Well, we don’t need this anymore with the new control flow syntax. Also, we no longer need to import the `CommonModule` to use them. Let’s take a look at an example.
+So, for those of us that are used to building things in Angular, we’re used to the structural directive `*ngIf`, and the concept of using an `ng-template` for the else condition when needed. Well, we don’t need this anymore with the new Control Flow syntax. Also, we no longer need to import the `CommonModule` to use them. Let’s take a look at an example.
 
 ## Angular Control Flow Syntax for If/Else Conditions
 
@@ -29,9 +29,9 @@ protected player: Player = {
 };
 ```
 
-If we were to imagine that, in the real world, data like this may come from an API request where it may contain data or just be undefined, we would then need to conditionally use it within our template. In this case, we want to show our player component and pass it the player data only when it’s been defined. So, we need to use an if condition. For the new syntax, it’s a little similar to other templating languages like PHP, razor, and others.
+If we were to imagine that, in the real world, data like this may come from an API request where it may contain data or just be undefined. We would then need to conditionally use it within our template. In this case, we want to show our player component and pass it the player data only when it’s been defined. So, we need to use an if condition. For the new syntax, it’s similar to other templating languages like PHP, razor, and others.
 
-We start with the at symbol, then in parentheses we add our condition, here it will be if our player value is truthy, and then we wrap whatever conditional item, in this case its our player component, with a player input, and that’s it.
+We start with the `@` symbol, then in parentheses we add our condition. Here it will be if our player value is truthy, and then we wrap whatever conditional item. In this case its our player component, with a player input, and that’s it.
 
 ### app.component.html
 ```html
@@ -58,7 +58,7 @@ And, when we save, now we can see that it’s properly removed when no data is p
 <img src="{{ '/assets/img/content/uploads/2023/11-03/no-player.png' | relative_url }}" alt="Player not showing" width="1816" height="772" style="width: 100%; height: auto;">
 </div>
 
-Here, if we want to show a message when we have no data, we need to add an else statement. To do this, we just need to add another at symbol, then the word else, then a new set of curly braces where we wrap our message.
+If we want to show a message when we have no data, we need to add an else statement. To do this, we just need to add another `@` symbol, then the word else, then a new set of curly braces where we wrap our message.
 
 ```html
 @if (player) {
@@ -68,17 +68,17 @@ Here, if we want to show a message when we have no data, we need to add an else 
 }
 ```
 
-Then, when we save this, we see that our message is properly displayed because we have no data.
+Then, when we save this, we see that our message is properly displayed because we now have no data.
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2023/11-03/empty-message.png' | relative_url }}" alt="Player not showing" width="1816" height="772" style="width: 100%; height: auto;">
 </div>
 
-So that’s the new syntax replacing the old ng if/else.
+So that’s the new syntax replacing the old ngIf/else.
 
 ## Angular Control Flow Syntax for Switch Statements
 
-Next up, we have the new syntax for switch statements. We no longer need a wrapping element or `ng-container` in order to use an ng switch directive and each of its cases. In this example we have a select control where we can choose Lebron, Kareem, or leave it as the default player. 
+Next up, we have the new syntax for switch statements. We no longer need a wrapping element or `ng-container` in order to use an `ngSwitch` directive and each of its cases. In this example we have a select control where we can choose Lebron, Kareem, or leave it as the default player. 
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2023/11-03/player-drop-down.png' | relative_url }}" alt="Player drop down" width="1556" height="424" style="width: 100%; height: auto;">
@@ -119,13 +119,13 @@ What we want to do in the template is show the appropriate player to match the v
 protected options = new FormControl<'LeBron' | 'Kareem' | 'Default'>('Default', { nonNullable: true });
 ```
 
-So, back in our template, we’ll begin by adding the `@` symbol followed by the word switch, then, in parentheses, the value that we’ll want to switch on, in this case that will be our options control value.
+So, back in our template, we’ll begin by adding the `@` symbol followed by the word "switch", then in parentheses, the value that we’ll want to switch on, in this case that will be our options control value.
 
 ```html
 @switch (options.value) {}
 ```
 
-Now for our first case, we add the `@` symbol, then the word case, followed by the value, LeBron for this case, in parentheses. Then, within curly braces, we add our player component with the player input, in this case it will be player one because that was Lebron in our data.
+Now for our first case, we add the `@` symbol, then the word "case", followed by the value, LeBron for this case, in parentheses. Then, within curly braces, we add our player component with the player input, in this case it will be player one because that was Lebron in our data.
 
 ```html
 @switch (options.value) {
@@ -182,11 +182,11 @@ And likewise with Kareem.
 <img src="{{ '/assets/img/content/uploads/2023/11-03/kareem-abdul-jabbar.png' | relative_url }}" alt="Kareem Abdul Jabbar" width="1567" height="484" style="width: 100%; height: auto;">
 </div>
 
-So that’s the new switch syntax, up next, we have the final example in this video, a for loop.
+So that’s the new switch syntax, up next, we have the final example in this post, a for loop.
 
 ## Angular Control Flow Syntax for For Loops
 
-For this we used to need an element or `*ngContainer` for our `*ngFor` directive. Then we would need to create a variable from a list of options, and then much of the time, we needed to add a `trackby` function to help with performance. Well, it looks similar now but a little different.
+For for loops in angular we used to need an element or `*ngContainer` for our `*ngFor` directive. Then we would need to create a variable from a list of options, and then much of the time, we needed to add a `trackby` function to help with performance. Well, it looks similar now but a little different.
 
 In this example, our list of players is larger and consists of all of these items.
 
@@ -285,7 +285,7 @@ export const players = [
 ];
 ```
 
-We want to list these players out in the template with a for loop. So, we start by adding the `@` symbol again. Then, the word for followed by parentheses. In these parentheses, we create our variable, we’ll call it player. Then, like the old `*ngFor, we use the word of, followed by our variable for our list of data, in this case players.
+We want to list these players out in the template with a for loop. So, we start by adding the `@` symbol again. Then, the word "for" followed by parentheses. In these parentheses, we create our variable, we’ll call it "player". Then, like the old `*ngFor`, we use the word "of", followed by our variable for our list of data, in this case players.
 
 ```html
 @for (player of players) {
@@ -298,7 +298,7 @@ Now, one of the key differences in the new syntax is that a track expression is 
 <img src="{{ '/assets/img/content/uploads/2023/11-03/track-expression-error.png' | relative_url }}" alt="Track expression error" width="1831" height="948" style="width: 100%; height: auto;">
 </div>
 
-So, we need to add a semi colon, followed by the word track. Then we need to provide a unique value to track, something like an id, but in our case we’ll use the player name.
+So, we need to add a semi colon, followed by the word "track". Then we need to provide a unique value to track, something like an id, but in our case we’ll use the player name.
 
 ```html
 @for (player of players; track player.name) {
@@ -319,6 +319,8 @@ And now when we save, there’s our list of players.
 <img src="{{ '/assets/img/content/uploads/2023/11-03/list-of-players.png' | relative_url }}" alt="List of players" width="1609" height="1725" style="width: 100%; height: auto;">
 </div>
 
+### Angular For Loop Empty Template
+
 Now, what if our list was empty and we want to show a message? Well let’s clear out our list data. If we were to save right now, we'd just have a blank screen. To show a message in this case, back in our template we can add an empty scenario for our for loop. And inside, we can add our message.
 
 ```html
@@ -335,11 +337,13 @@ Now, when we save, we see our message.
 
 Pretty easy right?
 
+### Angular For Loop Additional Properties
+
 Now, for those of you familiar with the old `*ngFor`, you may be wondering about all of the old properties that we had available like `index`, `first`, `last`, `even`, `odd`, and `count`.
 
 Well, they all still exist in the new syntax too. We just add them much like we did before.
 
-We use the word let followed by the variable name we want to use, then equals and the name of the value prefixed with a dollar sign.
+We use the word "let" followed by the variable name we want to use, then equals and the name of the value prefixed with a dollar sign.
 
 ```html
 @for (player of players;
@@ -425,7 +429,11 @@ And, when we scroll down to the bottom, the last item gets a blue border.
 
 Pretty straight forward right. So I think this is a pretty nice change. It’s pretty similar to what we’re used to but it’s a little more simple. It doesn’t require as many elements, `*ngContainer`s, and `ng-template`s, and it also doesn’t require any imports which is pretty nice.
 
-I guess, some things are simpler, some things are easier, and some things are just different. And for those of you who may be worried about making this change to an existing codebase, don’t be. To migrate all of your existing `*ngIf`s, `[ngSwitch]`s, and `*ngFor`s, you can simply use the migration schematic which should hopefully update them without much work.
+I guess, some things are simpler, some things are easier, and some things are just different.
+
+## The Angular Control Flow Migration Schematic
+
+For those of you who may be worried about making this change to an existing codebase, don’t be. To migrate all of your existing `*ngIf`s, `[ngSwitch]`s, and `*ngFor`s, you can simply use the migration schematic which should hopefully update them without much work.
 
 ```shell
 ng g @angular/core:control-flow-migration
@@ -436,4 +444,4 @@ Ok, so that’s pretty much all I have for Angular’s new control flow syntax.
 ## Want to See It in Action?
 Check out the demo code and examples of these techniques in the in the stackblitz example below. If you have any questions or thoughts, don’t hesitate to leave a comment.
 
-<iframe src="https://stackblitz.com/edit/ttnwwm?embed=1&file=src%2Fapp%2Fapp.component.ts" style="height: 500px; width: 100%; margin-bottom: 1.5em; display: block;"> 
+<iframe src="https://stackblitz.com/edit/ttnwwm?ctl=1&embed=1&file=src%2Fapp%2Fapp.component.ts" style="height: 500px; width: 100%; margin-bottom: 1.5em; display: block;"> 
