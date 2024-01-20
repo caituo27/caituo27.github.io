@@ -16,13 +16,11 @@ Accessibility can be a little difficult to understand or even think about if you
 
 A focus trap is a feature that helps make experiences better for these folks. It’s a way of managing user focus within a given container.
 
-Take for example, a modal. If a user opens a modal without managing focus, when they start navigating via the keyboard by using the tab key, items behind the modal continue to receive focus.
+Take for example, a modal. If a user opens a modal without managing focus, when they start navigating via the keyboard by using the tab key, items behind the modal continue to receive focus. This is weird and not what the user would expect right? We need to programmatically focus them within the modal.
 
-This is weird and not what the user would expect right? We need to programmatically focus them within the modal.
+But this isn’t enough, if we stop here, as we tab through the modal, eventually we’ll tab through all of the focusable items and then, we’ll be back to focusing items within the original document behind the modal again.
 
-But this isn’t enough, if we stop here, as we tab through the modal, eventually we’ll tab through all of the focusable items and then, we’ll be back to focusing items within the original document again while the modal is still open.
-
-What we need to do instead is trap the focus so that when the user focuses on the last item, focus will be placed back on the first focusable element on the next tab.
+What we need to do instead is trap the focus so that when the user focuses on the last item in the modal, focus will be placed back on the first focusable element in the modal on the next tab.
 
 Ok, now that we know what a focus trap is, we are probably beginning to realize that there’s going to be some effort to create this functionality right?
 
