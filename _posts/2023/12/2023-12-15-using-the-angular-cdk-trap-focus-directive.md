@@ -42,7 +42,7 @@ Up at the top, we have a sign-up button. When we click it, and then tab around, 
 
 Not what we want right?
 
-Ok, let’s add the trap focus directive. First thing we need to do in order to use it is, we need to import the `A11yModule`.
+Ok, let’s add the `cdkTrapFocus`. First thing we need to do in order to use it is, we need to import the `A11yModule`.
 
 ### sign-up-modal.component.ts
 
