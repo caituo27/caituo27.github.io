@@ -23,7 +23,7 @@ There is a concept for what is known as landmark roles in the ARIA specification
 - Main
 - Navigation
 - Region
-- Search.
+- Search
 
 All of these landmarks could be added implicitly using the proper HTML element, except for search until the element was added in early 2023. And now, we have an element for this as well.
 
