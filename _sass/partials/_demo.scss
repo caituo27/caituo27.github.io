@@ -84,8 +84,9 @@
 }
 
 iframe[src*="youtube.com"] {
-    aspect-ratio: 560 / 315;
+    aspect-ratio: 560 / 315.75;
     border: solid 1px #ccc;
+    display: block;
     height: auto;
     margin: 1.5rem 0;
     width: 100%;
