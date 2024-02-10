@@ -69,7 +69,7 @@ Next, we need to add the `aria-labelledby` attribute. This attribute gives the d
 </section>
 ```
 
-The last ARIA attribute that we need to add is the `aria-describedby` attribute. This attribute gives the dialog an accessible description by referring to the dialog content that describes the primary message or purpose of the dialog. And just like `aria-labelledby``, we need to add an id to the region that describes the dialog, in this case it will be the paragraph for our player description. Then we will pass this id to the `aria-describedby` attribute.
+The last ARIA attribute that we need to add is the `aria-describedby` attribute. This attribute gives the dialog an accessible description by referring to the dialog content that describes the primary message or purpose of the dialog. And just like `aria-labelledby`, we need to add an id to the region that describes the dialog, in this case it will be the paragraph for our player description. Then we will pass this id to the `aria-describedby` attribute.
 
 ```html
 <section
