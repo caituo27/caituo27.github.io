@@ -55,7 +55,7 @@ export class App {
 
 ### Using the Angular Animations `trigger()` Method
 
-Witnin this array, the first thing I need to do is add a trigger with the `trigger()` method. The first parameter in this method is the name of my animation as a string, in this case I’ll call it “openClose”. The second parameter is an array where I will add the rest of the animation instructions.
+Within this array, the first thing I need to do is add a trigger with the `trigger()` method. The first parameter in this method is the name of my animation as a string, in this case I’ll call it “openClose”. The second parameter is an array where I will add the rest of the animation instructions.
 
 ```typescript
 animations: [
