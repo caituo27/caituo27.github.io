@@ -150,4 +150,11 @@ Using inline SVG and CSS, you can achieve some pretty neat stuff directly within
 
 ### Want to See It in Action?
 
-Check out the demo code and examples of this technique in the in the [codepen example](https://codepen.io/brianmtreese/pen/YzdXJRy). If you have any questions or thoughts, don’t hesitate to leave a comment.
+Check out the demo code and examples of these techniques in the in the stackblitz example below. If you have any questions or thoughts, don’t hesitate to leave a comment.
+
+<p class="codepen" data-height="600" data-slug-hash="YzdXJRy" data-user="brianmtreese" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/brianmtreese/pen/YzdXJRy">
+  HTML, CSS, and SVG Text on a Path</a> by Brian (<a href="https://codepen.io/brianmtreese">@brianmtreese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
