@@ -139,6 +139,13 @@ This was a pretty simple example that may not even really look much different th
 
 ### Want to See It in Action?
 
-Check out the demo code and examples of this technique in the in the [codepen example](https://codepen.io/brianmtreese/pen/bGOGeBJ?editors=1100). If you have any questions or thoughts, don't hesitate to leave a comment.
+Check out the demo code and examples of this technique in the in the codepen example below. If you have any questions or thoughts, don't hesitate to leave a comment.
 
 Remember that with a little creativity and some CSS, you can transform the appearance of HTML radio buttons to match your design while maintaining accessibility and usability!
+
+<p class="codepen" data-height="600" data-slug-hash="bGOGeBJ" data-user="brianmtreese" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/brianmtreese/pen/bGOGeBJ">
+  Can We Style HTML Radio Buttons?</a> by Brian (<a href="https://codepen.io/brianmtreese">@brianmtreese</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
