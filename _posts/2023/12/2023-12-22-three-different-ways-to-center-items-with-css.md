@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Three Different Ways to Center Items With CSS"
+title: "Three Modern Ways to Center Items With CSS"
 date: "2023-12-22"
 categories: 
   - "css"
