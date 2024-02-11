@@ -51,7 +51,7 @@ export class App {
 
 And the trigger is applied to the items here in the template with the ngFor.
 
-### app.component.ts
+### app.component.html
 ```html
 <div
   @enterLeaveAnimation
