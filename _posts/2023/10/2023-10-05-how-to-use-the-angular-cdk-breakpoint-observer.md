@@ -178,13 +178,13 @@ export class NavComponent {
 There, it should still all work as expected. This allows us to keep both the styles and functionality here in sync, and should prevent some mistakes in the future.
 
 
-### CDK Predifined Breakpoints
+### CDK Predefined Breakpoints
 Something else that’s pretty cool about this layout module from the CDK is that they provide some standard breakpoints based on Google’s Material Design concepts that we can just use if we want.
 
 Here’s a list of the breakpoints and their values:
 
 <div>
-<img src="{{ '/assets/img/content/uploads/2023/10-05/breakpoints.png' | relative_url }}" alt="Angular CDK predifined breakpoint Values" width="1920" height="1080" style="width: 100%; height: auto;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/breakpoints.png' | relative_url }}" alt="Angular CDK predefined breakpoint Values" width="1920" height="1080" style="width: 100%; height: auto;">
 </div>
 
 So, there’s quite a few to choose from out of the box, but how do you use them? Well, let’s look at an example.
