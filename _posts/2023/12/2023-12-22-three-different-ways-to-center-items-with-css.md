@@ -59,7 +59,7 @@ Well, this is because we’ve positioned the item in the center of our `div`, bu
 
 But, how can we do this?
 
-It’s actually really easy. We can use the new CSS `translate`` property. The first value will translate along the x-axis. We need to go back fifty percent, so we’ll add a value of negative fifty percent. And, the second value translates along the y-axis, we’ll give it the same value of negative fifty percent.
+It’s actually really easy. We can use the new CSS `translate` property. The first value will translate along the x-axis. We need to go back fifty percent, so we’ll add a value of negative fifty percent. And, the second value translates along the y-axis, we’ll give it the same value of negative fifty percent.
 
 ```css
 strong {
@@ -85,7 +85,7 @@ Here's the final working example using positioning and translation:
 
 So, this is one way we can do it, but it’s not my favorite.
 
-## Using Flexbox to center items
+## Using Flexbox to Center Items
 
 If I can, I prefer to use flexbox over positioning because it’s even easier, requires fewer lines of code, no positioning context, and honestly, it just feels like a better, more modern solution. Let’s look at an example.
 
@@ -122,7 +122,7 @@ Here's the final working example using Flexbox:
 
 So that’s cool and I sometimes have the need to do this, but my favorite way to position items in the center is to use CSS grid. And again, my reasons for this are because it’s even easier than `flex` and requires even less code.
 
-## Using Grid to center items
+## Using Grid to Center Items
 
 Ok, same starting point with the red box and inner item.
 

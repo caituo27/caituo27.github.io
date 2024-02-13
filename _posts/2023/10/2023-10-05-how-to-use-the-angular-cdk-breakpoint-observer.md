@@ -90,7 +90,7 @@ Now, in our ngOnInit method, we’ll access our breakpoint observer. We'll use i
 
 This method returns an observable that will fire with a value of a `BreakpointState` object which contains a matches Boolean value. This value will be true when we are matching our breakpoint, so when we are narrower than `585px`. And, since it’s an observable we’ll need to subscribe. But, before we do, we need to make sure to properly remove the subscription on destroy. So we add our pipe, then our `takeUntilDestroyed`, and then we pass it our `DestroyRef`. Then we’ll name the state object returned, state.
 
-When this state does not match, we’ll want to set our `isVisible`` property to false. The observe method fires with a value every time the viewport is resized and it will simply set this property to true when it matches and false when it doesn’t.
+When this state does not match, we’ll want to set our `isVisible` property to false. The observe method fires with a value every time the viewport is resized and it will simply set this property to true when it matches and false when it doesn’t.
 
 ```typescript
 @Component({
