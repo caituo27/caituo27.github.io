@@ -7,7 +7,7 @@ categories:
   - "cdk"
 ---
 
-<p class="intro"><span class="dropcap">M</span>ost of the time, when creating responsive applications in Angular, we just need to use CSS and media queries.Every once in a while though, we need to alter some interactivity or logic based on these same media queries. Meaning, we need to access them in some way from JavaScript. And this can get a little messy sometimes. Luckily for us, we can use the Breakpoint Observer utility provided by the Angular CDK. Let’s check it out!</p>
+<p class="intro"><span class="dropcap">M</span>ost of the time, when creating responsive applications in Angular, we just need to use CSS and media queries. Every once in a while though, we need to alter some interactivity or logic based on these same media queries. Meaning, we need to access them in some way from JavaScript. And this can get a little messy sometimes. Luckily for us, we can use the Breakpoint Observer utility provided by the Angular CDK. Let’s check it out!</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aKxFbZG_3go?si=Jrdd-d9JlMHvTycm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -26,13 +26,13 @@ Ok, here we have this layout with our navigation next to our main content.
 And, when we resize this smaller, the menu is hidden.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden.png' | relative_url }}" alt="Small videport layout with sidebar hidden" width="1140" height="1544" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden.png' | relative_url }}" alt="Small viewport layout with sidebar hidden" width="1140" height="1544" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 We can toggle the sidebar display by clicking the "Show Menu" button in the upper right corner.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden-then-visible.png' | relative_url }}" alt="Small videport layout with sidebar visible" width="1150" height="1434" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-05/layout-sidebar-hidden-then-visible.png' | relative_url }}" alt="Small viewport layout with sidebar visible" width="1150" height="1434" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 So far, so good.
