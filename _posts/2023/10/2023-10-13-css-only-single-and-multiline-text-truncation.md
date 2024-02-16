@@ -105,7 +105,7 @@ What if we had multiple lines that we want to truncate? Well, we can do this aga
 Here, we have this list of blog posts that show an excerpt. But, we only want to see three lines of the excerpt in each post.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-13/multi-line-untruncated-text.png' | relative_url }}" alt="Single line text truncation final example" width="2070" height="1598" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-13/multi-line-untruncated-text.png' | relative_url }}" alt="An example of blog list layout with post excerpts of varying length" width="2070" height="1598" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 Well, let’s add our webkit `line-clamp` property with a value of three.
@@ -149,7 +149,7 @@ p {
 Tada. There it is, now these are properly truncated to three lines of text.
 
 <div class="demoBox" style="padding: 0;">
-<img src="{{ '/assets/img/content/uploads/2023/10-13/multi-line-untruncated-text.png' | relative_url }}" alt="Single line text truncation final example" width="2080" height="1606" style="width: 100%; height: auto; display: block; margin: 0;">
+<img src="{{ '/assets/img/content/uploads/2023/10-13/multi-line-truncated-text.png' | relative_url }}" alt="Multi-line text truncation final example" width="2080" height="1606" style="width: 100%; height: auto; display: block; margin: 0;">
 </div>
 
 And, even as they shrink and grow, they will continue to show three lines. Pretty cool.
