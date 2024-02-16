@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular Animations Tutorial: Enter & Leave"
-date: "2024-02-15"
+date: "2024-02-16"
 categories: 
   - "angular"
 ---
