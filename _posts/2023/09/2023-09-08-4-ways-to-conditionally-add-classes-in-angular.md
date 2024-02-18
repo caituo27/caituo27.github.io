@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "4 Ways to Toggle Classes in Angular"
-date: "2023-09-08"
+date: "2023-09-01"
 categories: 
   - "angular"
 ---
