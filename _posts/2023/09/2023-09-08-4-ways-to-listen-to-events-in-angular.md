@@ -207,7 +207,7 @@ ngOnDestroy() {
     if (this.bodyClickListener) {
         this.bodyClickListener();
     }
-  }
+}
 ```
 
 There now this will be properly cleaned up when the component is destroyed and prevent any memory leaks.
