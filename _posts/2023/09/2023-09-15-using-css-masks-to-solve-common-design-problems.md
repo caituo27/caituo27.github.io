@@ -146,7 +146,7 @@ Okay so how’d we do?
 
 Perfect, fading in both directions now.
 
-One last thing to note here is that I'm actually using Autoprefixer in this [Codepen example]() which automatically handles vendor specific prefixes for me. If I wasn't using Autoprefixer, since I'm using Chrome, I would actually need to use the `-webkit` prefix on the mask image property for this to work correctly.
+One last thing to note here is that I'm actually using Autoprefixer in this [Codepen example](https://codepen.io/brianmtreese/pen/RwEVZRY) which automatically handles vendor specific prefixes for me. If I wasn't using Autoprefixer, since I'm using Chrome, I would actually need to use the `-webkit` prefix on the mask image property for this to work correctly.
 
 ```css
 -webkit-mask-image
