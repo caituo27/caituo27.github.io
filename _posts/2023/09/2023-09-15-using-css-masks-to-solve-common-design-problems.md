@@ -29,7 +29,7 @@ Masks in CSS work by using a combination of opaque and transparent areas. The ar
 And areas that are partially opaque will allow the things behind them to be partially seen.
 
 <div>
-<img src="{{ '/assets/img/content/uploads/2023/09-15/partially-opaque-transparent-mask.gif' | relative_url }}" alt="CSS mask-image example with patially opaque and patially transparent areas" width="1280" height="720" style="width: 100%; height: auto;">
+<img src="{{ '/assets/img/content/uploads/2023/09-15/partially-opaque-transparent-mask.gif' | relative_url }}" alt="CSS mask-image example with partially opaque and partially transparent areas" width="1280" height="720" style="width: 100%; height: auto;">
 </div>
 
 Okay so how about an example?
