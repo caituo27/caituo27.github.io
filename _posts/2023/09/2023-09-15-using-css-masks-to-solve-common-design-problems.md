@@ -42,7 +42,7 @@ Our goal here is to create a fade out effect at the top and bottom of our scroll
 <img src="{{ '/assets/img/content/uploads/2023/09-15/scrolling-container-with-fades.png' | relative_url }}" alt="CSS mask-image example fadeout at top and bottom of a scrolling container" width="1920" height="1080" style="width: 100%; height: auto;">
 </div>
 
-So, based on what we just learned about masks you probably have some ideas about what we need.We need a mask that is an opaque color for most of the container, but that fades to transparent at the top and then again at the bottom.
+So, based on what we just learned about masks you probably have some ideas about what we need. We need a mask that is an opaque color for most of the container, but that fades to transparent at the top and then again at the bottom.
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2023/09-15/example-scrolling-mask.png' | relative_url }}" alt="CSS mask-image example fadeout at top and bottom of a scrolling container" width="950" height="954" style="width: 100%; height: auto;">
