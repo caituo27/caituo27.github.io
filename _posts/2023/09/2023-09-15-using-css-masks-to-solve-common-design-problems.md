@@ -152,7 +152,7 @@ One last thing to note here is that I'm actually using Autoprefixer in this [Cod
 -webkit-mask-image
 ```
 
-But since I'm using Autoprefixer it makes it so that I don't need to do this. Jjust one thing to note as you're adding masks in your own projects.
+But since I'm using Autoprefixer it makes it so that I don't need to do this. Just one thing to note as you're adding masks in your own projects.
 
 Here's the final working example:
 
