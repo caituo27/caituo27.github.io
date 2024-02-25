@@ -48,7 +48,7 @@ So, based on what we just learned about masks you probably have some ideas about
 <img src="{{ '/assets/img/content/uploads/2023/09-15/example-scrolling-mask.png' | relative_url }}" alt="CSS mask-image example fadeout at top and bottom of a scrolling container" width="950" height="954" style="width: 100%; height: auto;">
 </div>
 
-So, if we think about what we need, we want to place a mask on top of our scrolling container and it's going to fade at the top and bottom. For this, we're goint to need to use two `linear-gradients` with our `mask-image` property. One gradient will fade from fully opaque black at the top down to the bottom where it'll need to fade to transparent. And then vice versa, at the top it'll fade from fully opaque at the bottom to transparent at the top.
+So, if we think about what we need, we want to place a mask on top of our scrolling container and it's going to fade at the top and bottom. For this, we're going to need to use two `linear-gradients` with our `mask-image` property. One gradient will fade from fully opaque black at the top down to the bottom where it'll need to fade to transparent. And then vice versa, at the top it'll fade from fully opaque at the bottom to transparent at the top.
 
 So, let's start with the bottom first. To do this we'll add our `mask-image` property. And we're going to want to add a `linear-gradient`. Since we're doing the bottom first, we will make this gradient go "to bottom". Also, we're going to want the fades to be 5em tall so we'll add a custom property for this so that it can be used multiple times.
 
