@@ -165,7 +165,7 @@ Here's the final working example:
 
 ## Using an SVG, `linear-gradient`, and `mask-image` to Irregular Shaped Edges
 
-Now we're going to move on to another common design concept, containers with an irregular edge of some sort. For this we'll need more than just a linear gradient, we'll also need an SVG. In this example, we're goint to use two SVGs that look like this.
+Now we're going to move on to another common design concept, containers with an irregular edge of some sort. For this we'll need more than just a linear gradient, we'll also need an SVG. In this example, we're going to use two SVGs that look like this.
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2023/09-15/irregular-edge-svg-examples.png' | relative_url }}" alt="CSS mask-image example fadeout at top and bottom of a scrolling container with two linear-gradients" width="1920" height="1080" style="width: 100%; height: auto;">
