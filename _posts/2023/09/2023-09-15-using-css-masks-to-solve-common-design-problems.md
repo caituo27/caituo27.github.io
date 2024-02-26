@@ -205,7 +205,7 @@ Okay now we need to add a `mask-size` for this so that it's the proper size. Jus
 }
 ```
 
-No, just like `background-size` we have a `mask-size` property. We'll use our custom properties for this size. For the width, we'll use `--maskWidth` and for the height we'll use `--maskHeight`.
+Now, just like `background-size` we have a `mask-size` property. We'll use our custom properties for this size. For the width, we'll use `--maskWidth` and for the height we'll use `--maskHeight`.
 
 ```css
 header {
