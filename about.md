@@ -13,7 +13,7 @@ title: A Little About Me
 		I’ve been designing and building for the web for quite a long time now (early 2000’s 🫣). It’s funny, because in my mind the early 2000's doesn’t seem like it was that long ago, but now I look out there at all you young whippersnappers and I realize just how old I am.
 	</p>
 	<p>
-		I started out and built my first website, complete with some flash animations and blinking text, for a t-shirt company that some friends and I started back in college. We created some cool shirts, but the company never went anywhere, but both of those guys have gone on to create some pretty amazing businesses for themselves. One created <a href="https://www.1850restaurant.com/">1850 restaurant and brewery</a> and the other created <a href="https://www.thefungitemple.com/">Fungi Temple</a>. Really proud of those guys!
+		I started out and built my first website, complete with some <a href="https://en.wikipedia.org/wiki/Adobe_Flash">Flash</a> animations and blinking text, for a t-shirt company that some friends and I started back in college. We created some cool shirts, but the company never went anywhere. Both of those guys have gone on to create some pretty amazing businesses for themselves though. One created <a href="https://www.1850restaurant.com/">1850 Restaurant and Brewery</a> and the other created <a href="https://www.thefungitemple.com/">Fungi Temple</a>. Really proud of those guys!
 	</p>
 	<p>
 		Now, when I realized the t-shirt business wasn’t going to pay my bills, I put together my first portfolio site with less flash and no blinking text this time around. I then used this site to help wow Justin Couto at Couto Solutions and the rest is history.
