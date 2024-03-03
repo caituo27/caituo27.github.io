@@ -31,7 +31,7 @@ title: A Little About Me
 	<ul>
 		<li><a href="https://briantree.se">Check it out here!</a></li>
 	</ul>
-	<h3>My Youtube Channel:</h3>
+	<h3>My YouTube Channel:</h3>
 	<ul>
 		<li><a href="https://www.youtube.com/@briantreese">Check it out here!</a></li>
 		<li><a href="https://www.youtube.com/playlist?list=PLp-SHngyo0_h1ktgiYS7W7fr9kjFzew9V">CSS Tips</a></li>
