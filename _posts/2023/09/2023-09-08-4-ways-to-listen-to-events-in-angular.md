@@ -2,6 +2,7 @@
 layout: post
 title: "4 Ways to Listen to Events in Angular"
 date: "2023-09-08"
+video_id: "IBuZv_WmyrE"
 categories: 
   - "angular"
 ---

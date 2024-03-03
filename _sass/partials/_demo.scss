@@ -83,7 +83,8 @@
     
 }
 
-iframe[src*="youtube.com"] {
+iframe[src*="youtube.com"],
+.post-image {
     aspect-ratio: 560 / 315.75;
     border: solid 1px #ccc;
     display: block;
@@ -91,6 +92,30 @@ iframe[src*="youtube.com"] {
     margin: 1.5rem 0;
     width: 100%;
 }
+
+.post-image {
+    transition: opacity ease-in 0.2s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    img {
+        display: block;
+    }
+
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
 
 /***************
 DARK THEME STYLING

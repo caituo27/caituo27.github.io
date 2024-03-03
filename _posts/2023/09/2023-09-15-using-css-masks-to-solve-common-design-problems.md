@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Using CSS Masks to Solve Common Design Problems"
+title: "CSS Masks Guide: Solutions to Common Design Challenges"
 date: "2023-09-15"
+video_id: "xz9jkLceRGQ"
 categories: 
   - "css"
 ---

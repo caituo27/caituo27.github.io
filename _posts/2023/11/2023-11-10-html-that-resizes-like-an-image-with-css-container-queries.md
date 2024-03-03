@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "HTML That Resizes Like an Image With CSS Container Queries!"
+title: "HTML: How to Resize Markup Like an Image With CSS Container Queries!"
 date: "2023-11-10"
+video_id: "5ugwp7HlpGs"
 categories: 
   - "css"
 ---

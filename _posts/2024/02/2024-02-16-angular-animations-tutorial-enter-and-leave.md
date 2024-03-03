@@ -2,6 +2,7 @@
 layout: post
 title: "Angular Animations Tutorial: Enter & Leave"
 date: "2024-02-16"
+video_id: "tDXkcITKDDY"
 categories: 
   - "angular"
 ---

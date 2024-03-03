@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Create Dynamic Text on a Path with HTML, SVG, and CSS"
+title: "Crafting Dynamic Text Paths with HTML, SVG, and CSS: A Guide to Responsive and Accessible Graphics"
 date: "2023-08-27"
+video_id: "91A4-iYK1zY"
 categories: 
   - "css"
   - "html5"

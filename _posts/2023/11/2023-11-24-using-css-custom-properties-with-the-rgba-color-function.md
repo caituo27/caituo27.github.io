@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Using CSS Custom Properties With the rgba() Color Function"
+title: "Alpha Transparency in CSS Custom Properties"
 date: "2023-11-24"
+video_id: "RduB0gmxsxM"
 categories: 
   - "css"
 ---

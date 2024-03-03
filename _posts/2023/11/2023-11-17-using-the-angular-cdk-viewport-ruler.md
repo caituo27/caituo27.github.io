@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Using the Angular CDK Viewport Ruler"
+title: "How to Use the Angular CDK Viewport Ruler for Responsive Apps"
 date: "2023-11-17"
+video_id: "71z2SPF4LDA"
 categories: 
   - "angular"
 ---

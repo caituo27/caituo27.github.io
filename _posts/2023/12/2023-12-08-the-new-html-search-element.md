@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "The New HTML Search Element 🔎"
+title: "Using The New HTML Search Element: Enhancing Semantics for Search Functionality 🔎"
 date: "2023-12-08"
+video_id: "gi1sAH7DZQw"
 categories: 
   - "html"
 ---

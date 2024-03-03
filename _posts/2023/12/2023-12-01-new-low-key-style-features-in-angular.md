@@ -2,6 +2,7 @@
 layout: post
 title: "New Low-key Style Features in Angular 😮"
 date: "2023-12-01"
+video_id: "FX4JdusX-ic"
 categories: 
   - "angular"
 ---

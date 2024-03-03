@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "CSS Only Single and Multiline Text Truncation"
+title: "Text Truncation in CSS: Learn Single and Multiple Line Truncation with Ease"
 date: "2023-10-13"
+video_id: "SrKwDEihwB4"
 categories: 
   - "css"
 ---

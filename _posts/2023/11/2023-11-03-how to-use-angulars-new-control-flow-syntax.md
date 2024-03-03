@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "How to Use Angular's New Control Flow Syntax"
+title: "A Beginner-Friendly Guide On How to Use Angular's New Control Flow Syntax"
 date: "2023-11-03"
+video_id: "nUEERAOZKwg"
 categories: 
   - "angular"
 ---

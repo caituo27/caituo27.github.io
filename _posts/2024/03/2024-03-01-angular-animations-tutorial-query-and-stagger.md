@@ -2,6 +2,7 @@
 layout: post
 title: "Angular Animations Tutorial: Query and Stagger"
 date: "2024-03-01"
+video_id: "zk5MxzExl4o"
 categories: 
   - "angular"
 ---

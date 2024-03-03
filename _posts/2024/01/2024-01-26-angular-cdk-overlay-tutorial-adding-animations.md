@@ -2,6 +2,7 @@
 layout: post
 title: "Angular CDK Overlay Tutorial: Adding Animations"
 date: "2024-01-26"
+video_id: "JEKQ21mXyA0"
 categories: 
   - "angular"
 ---

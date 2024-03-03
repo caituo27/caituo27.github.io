@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "4 Ways to Toggle Classes in Angular"
+title: "4 Ways to Dynamically Add Classes in Angular"
 date: "2023-09-01"
+video_id: "sAa8QyFkVkI"
 categories: 
   - "angular"
 ---

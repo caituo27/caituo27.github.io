@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "CSS Grid Can Do That?!"
+title: "Things You Didn’t Know CSS Grid Could Do"
 date: "2023-09-29"
+video_id: "QIn-hPJNZK0"
 categories: 
   - "css"
 ---

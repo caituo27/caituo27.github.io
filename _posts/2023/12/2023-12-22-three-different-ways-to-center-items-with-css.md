@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Three Modern Ways to Center Items With CSS"
+title: "3 Contemporary CSS Techniques for Centering Items"
 date: "2023-12-22"
+video_id: "XMH4c1xIZtE"
 categories: 
   - "css"
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Angular Animations Tutorial: Learn the Basics"
 date: "2024-02-09"
+video_id: "CGBcIz1tYec"
 categories: 
   - "angular"
 ---

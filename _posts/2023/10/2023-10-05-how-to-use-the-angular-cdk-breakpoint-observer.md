@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "How to Use the Angular CDK Breakpoint Observer"
+title: "How to Utilize Angular CDK Breakpoint Observer"
 date: "2023-10-05"
+video_id: "aKxFbZG_3go"
 categories: 
   - "angular"
   - "cdk"

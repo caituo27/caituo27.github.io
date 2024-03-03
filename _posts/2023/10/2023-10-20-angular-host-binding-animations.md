@@ -2,6 +2,7 @@
 layout: post
 title: "Angular Host Binding Animations"
 date: "2023-10-20"
+video_id: "fS5KLM2johA"
 categories: 
   - "angular"
 ---
