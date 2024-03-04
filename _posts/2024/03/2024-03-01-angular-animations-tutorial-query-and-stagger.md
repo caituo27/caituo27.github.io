@@ -31,7 +31,7 @@ Here we have this application listing out some NBA players. At first, we only se
 This is cool but the way these items are added and removed is a little lame. It would be better to transition them in and out like this wouldn’t it?
 
 <div>
-<img src="{{ '/assets/img/content/uploads/2024/03-01/demo-add-remove-players-no-animation.gif' | relative_url }}" alt="Example of a demo application adding and removing list items with animations" width="676" height="940" style="width: 100%; height: auto;">
+<img src="{{ '/assets/img/content/uploads/2024/03-01/demo-add-remove-players-with-animation.gif' | relative_url }}" alt="Example of a demo application adding and removing list items with animations" width="676" height="940" style="width: 100%; height: auto;">
 </div>
 
 Well, this is actually all possible with the Angular Animations module.
