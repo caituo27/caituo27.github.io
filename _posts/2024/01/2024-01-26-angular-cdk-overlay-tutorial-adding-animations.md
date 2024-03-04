@@ -290,7 +290,7 @@ The last thing we need to do is detach the overlay when this event fires. So, le
 </ng-template>
 ```
 
-Ok, now it will still transition as it opens and it will now transtion when when it closes too.
+Ok, now it will still transition as it opens and it will now transition when when it closes too.
 
 Cool, so now we have a working open and close animation for our pop-ups but we can make it even better.
 
