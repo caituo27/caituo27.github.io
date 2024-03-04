@@ -35,7 +35,7 @@ It’s a list of NBA players and when we click the button on the right, we get a
 
 If you’ve used Angular animations in the past, you’d probably expect to use a simple `:enter` and `:leave` animation. This type of animation in Angular allows us to animate items that are physically entering into and out of the DOM. This is something that CSS currently does not support.
 
-So, let’s try this and see what happens. Within our player-details component
+So, let’s try this and see what happens.
 
 ### Creating an :enter/:leave Animation in the Component Animations Metadata
 
