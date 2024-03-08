@@ -11,7 +11,7 @@ categories:
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/zk5MxzExl4o" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Before we get too far along, it’s important to note here that I’ve already created several posts focused on the animation framework. They cover the basics of setting up and using Angular animations, creating state-based and `:enter`/`:leave` animations, and using the `keyframes()` function to create more complex animation sequences. So, if any of those concepts are unfamiliar to you, you’ll probably want to check those posts out first so that you’re not lost in this post.
+Before we get too far along, it’s important to note here that I’ve already created several posts focused on the animation framework. They cover the basics of setting up and using Angular animations, creating state-based and `:enter`/`:leave` animations, and using the [`keyframes()`](https://angular.io/api/animations/keyframes) function to create more complex animation sequences. So, if any of those concepts are unfamiliar to you, you’ll probably want to check those posts out first so that you’re not lost in this post.
 
 #### Angular CDK Overlay Tutorials:
 - [Learn the Basics]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %})
