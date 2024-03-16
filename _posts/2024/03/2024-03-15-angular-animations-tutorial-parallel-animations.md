@@ -26,7 +26,7 @@ So, if any of those concepts are unfamiliar to you, you’ll probably want to ch
 
 And, to make them easier to find, I’ve created an [Angular Animations playlist](https://youtube.com/playlist?list=PLp-SHngyo0_ikgEN5d9VpwzwXA-eWewSM&si=3WnQgeDxdAZJGGFy) on my [YouTube channel](https://www.youtube.com/@briantreese) to help, so check it out!
 
-Ok, enough of that, onto the example for this video.
+Ok, enough of that, onto the example for this post.
 
 ## The Demo Application
 
