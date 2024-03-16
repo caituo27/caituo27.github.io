@@ -15,7 +15,7 @@ Before we get too far along, it’s important to note here that I’ve already c
 
 #### Angular CDK Overlay Tutorials:
 - [Learn the Basics]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %})
-- [Enter and Leave Animations]({% post_url /2024/02/2024-02-23-angular-animations-tutorial-the-keyframes-function %})
+- [Enter and Leave Animations]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %})
 - [The Keyframes Function]({% post_url /2024/02/2024-02-23-angular-animations-tutorial-the-keyframes-function %})
 
 Ok, enough of that, onto the example for this post.

@@ -21,9 +21,9 @@ So, if any of those concepts are unfamiliar to you, you’ll probably want to ch
 
 #### Angular CDK Overlay Tutorials:
 - [Learn the Basics]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %})
-- [Enter & Leave]({% post_url /2024/02/2024-02-23-angular-animations-tutorial-the-keyframes-function %}) 
+- [Enter and Leave Animations]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %}) 
 - [The Keyframes Function]({% post_url /2024/02/2024-02-23-angular-animations-tutorial-the-keyframes-function %})
-- [Query and Stagger Function]({% post_url /2024/02/2024-02-23-angular-animations-tutorial-the-keyframes-function %})
+- [Query and Stagger Function]({% post_url /2024/03/2024-03-01-angular-animations-tutorial-query-and-stagger %})
 
 I’ve also created an [Angular Animations playlist](https://youtube.com/playlist?list=PLp-SHngyo0_ikgEN5d9VpwzwXA-eWewSM&si=3WnQgeDxdAZJGGFy) on my [YouTube channel](https://www.youtube.com/@briantreese) to help make their corresponding videos easier to find, so check it out!
 
