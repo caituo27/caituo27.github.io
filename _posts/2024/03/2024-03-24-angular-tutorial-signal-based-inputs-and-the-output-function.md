@@ -167,7 +167,7 @@ Now, the last part here is to properly call all of these new signals in the temp
 #### player.component.html
 ```html
 <h2>
-    {{ name() }}
+    {% raw %}{{ name() }}{% endraw %}
 </h2>
 ```
 
