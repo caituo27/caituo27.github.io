@@ -49,8 +49,7 @@ Well, this is where the [`@Attribute`](https://angular.io/api/core/Attribute) de
 
 ## Using the @Attribute Decorator to Improve Performance with Static Values
 
-Since we know these values are going to be a static string literal we can instead convert them over to attributes. To do this, we need to start by adding a `constructor()`. Then we can add the `@Attribute` decorator.
-Within this decorator, we need to provide the attribute name as a string, so in this case it’ll be, “primaryLabel”. Next, let’s include the public modifier, the name will be “primaryLabel” as well, and it will be a string.
+Since we know these values are going to be a static string literal we can instead convert them over to attributes. To do this, we need to start by adding a `constructor()`. Then we can add the `@Attribute` decorator. Within this decorator, we need to provide the attribute name as a string, so in this case it’ll be, “primaryLabel”. Next, let’s include the public modifier, the name will be “primaryLabel” as well, and it will be a string.
 
 #### button.component.ts
 ```typescript
