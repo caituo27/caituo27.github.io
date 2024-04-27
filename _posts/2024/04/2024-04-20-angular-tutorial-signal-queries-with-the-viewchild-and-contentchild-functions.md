@@ -29,7 +29,7 @@ In this post, we’ll convert each of these over to [signals](https://angular.io
 
 ## Using the viewChild() Function to Query for an HTML Element Within a Component View
 
-Ok, here [in this example](https://stackblitz.com/edit/stackblitz-starters-gbpu6y?file=package.json,src%2Fsearch%2Fsearch.component.ts) we can see, in our search component, we have the [`@ViewChild`](https://angular.io/guide/signal-queries#viewchild) decorator that queries for a template reference variable named “searchField”.
+Ok, here [in this example](https://stackblitz.com/edit/stackblitz-starters-gbpu6y?file=package.json,src%2Fsearch%2Fsearch.component.ts) we can see, in our search component, we have the [`@ViewChild`](https://angular.io/api/core/ViewChild) decorator that queries for a template reference variable named “searchField”.
 
 #### search.component.ts
 ```typescript
@@ -177,7 +177,7 @@ export class SearchFormComponent {
 }
 ```
 
-Now, let’s take a look at the code for the search component. We have an old [`@ViewChild`](https://angular.io/guide/signal-queries#viewchild) decorator used to access the `SearchFormComponent` within the view. It’s also `static` like the previous example and it’s accessed in the [`ngOnInit()`](https://angular.io/api/core/OnInit) lifecycle hook to set focus of the text field within that component.
+Now, let’s take a look at the code for the search component. We have an old [`@ViewChild`](https://angular.io/api/core/ViewChild) decorator used to access the `SearchFormComponent` within the view. It’s also `static` like the previous example and it’s accessed in the [`ngOnInit()`](https://angular.io/api/core/OnInit) lifecycle hook to set focus of the text field within that component.
 
 #### search.component.ts
 ```typescript
@@ -200,7 +200,7 @@ This example will be very similar to the last one accept we’ll be using a comp
 private searchForm = viewChild.required(SearchFormComponent);
 ```
 
-Now we can remove the old property, set with the decorator and we can remove the import for the [`@ViewChild`](https://angular.io/guide/signal-queries#viewchild) decorator.
+Now we can remove the old property, set with the decorator and we can remove the import for the [`@ViewChild`](https://angular.io/api/core/ViewChild) decorator.
 
 Next, let's add a `constructor()`, [`effect()`](https://angular.io/guide/signals#effects) function, and move the focus call into the [`effect()`](https://angular.io/guide/signals#effects) callback.
 
