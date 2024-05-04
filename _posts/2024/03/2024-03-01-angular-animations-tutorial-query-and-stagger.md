@@ -13,7 +13,7 @@ categories:
 
 Before we get too far along, it’s important to note here that I’ve already created several posts focused on the animation framework. They cover the basics of setting up and using Angular animations, creating state-based and `:enter`/`:leave` animations, and using the [`keyframes()`](https://angular.io/api/animations/keyframes) function to create more complex animation sequences. So, if any of those concepts are unfamiliar to you, you’ll probably want to check those posts out first so that you’re not lost in this post.
 
-#### Angular CDK Overlay Tutorials:
+#### Angular Animation Tutorials:
 - [Learn the Basics]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %})
 - [Enter and Leave Animations]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %})
 - [The Keyframes Function]({% post_url /2024/02/2024-02-23-angular-animations-tutorial-the-keyframes-function %})

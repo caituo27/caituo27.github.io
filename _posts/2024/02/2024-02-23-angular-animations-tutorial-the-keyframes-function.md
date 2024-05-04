@@ -15,7 +15,7 @@ Before we get too far along, it’s important to note here that I’ve already c
 
 Then [I’ve got a post]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %}) where we build off the example in the first video and change to animate items as they are added to and removed from the DOM with the `:enter` and `:leave` aliases. So, if you’re not familiar with these concepts, the examples in this video might not make as much sense as they would if you were to watch them first.
 
-#### Angular CDK Overlay Tutorials:
+#### Angular Animation Tutorials:
 - [Learn the Basics]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %})
 - [Enter and Leave Animations]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %})
 
