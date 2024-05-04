@@ -220,7 +220,7 @@ trigger('slideToggle', [
 Ok, now to use these params in our animation we just need to wrap the param name in double curly braces. So, let’s add the “enterStart” param to our `:enter` initial state.
 
 ```typescript
-query(':enter', style({ transform: 'translateX({{ enterStart }}) scale(0.25)' }))
+query(':enter', style({ transform: 'translateX({% raw %}{{ enterStart }}{% endraw %}) scale(0.25)' }))
 ```
 
 And let’s add the “leaveEnd” param to our `:leave` animation end state.
@@ -229,7 +229,7 @@ And let’s add the “leaveEnd” param to our `:leave` animation end state.
 query(':leave', [
     animate(
         '750ms ease-in-out',
-        style({ transform: 'translateX({{ leaveEnd }}) scale(0.25)' })
+        style({ transform: 'translateX({% raw %}{{ leaveEnd }}{% endraw %}) scale(0.25)' })
     )
 ])
 ```
