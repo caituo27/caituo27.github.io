@@ -292,7 +292,7 @@ Nice, looks like it still animated correctly as we navigated to the next image a
 
 So, the example we have here is pretty simple, but it demonstrates how and why you may need to use params in your animations going forward. I hope you found all of this useful.
 
-Now remember, there’s a lot to the animation framework, so I’ll go ahead and stop here for now, but I’ll likely create more videos on Angular animations in the future so stay tuned!
+Now remember, there’s a lot to the animation framework, so I’ll go ahead and stop here for now, but I’ll likely create more posts on Angular animations in the future so stay tuned!
 
 ## Want to See It in Action?
 Check out the demo code and examples of these techniques in the in the Stackblitz example below. If you have any questions or thoughts, don’t hesitate to leave a comment.
