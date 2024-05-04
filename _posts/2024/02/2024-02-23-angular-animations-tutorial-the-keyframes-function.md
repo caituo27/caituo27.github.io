@@ -7,19 +7,19 @@ categories:
   - "angular"
 ---
 
-<p class="intro"><span class="dropcap">A</span>s you probably already know, when you build apps today, you’ll likely need to use animations and transitions to enhance the UI where possible. With Angular’s animation framework we have access to some pretty powerful features which allow us to do things that may not be possible with CSS alone. In this video we’re going to look at a little, fun and crazy example using the Angular <code>keyframes()</code> animation function. Alright, let’s get to it!</p>
+<p class="intro"><span class="dropcap">A</span>s you probably already know, when you build apps today, you’ll likely need to use animations and transitions to enhance the UI where possible. With Angular’s animation framework we have access to some pretty powerful features which allow us to do things that may not be possible with CSS alone. In this post we’re going to look at a little, fun and crazy example using the Angular <code>keyframes()</code> animation function. Alright, let’s get to it!</p>
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/w7uylEcAtJ8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Before we get too far along, it’s important to note here that I’ve already created a couple of posts focused on the animation framework. First, I’ve got an [animation basics post]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %}) where I cover how to include the animations module and then how to use some of the basic functions of the API to create a simple state-based animation.
 
-Then [I’ve got a post]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %}) where we build off the example in the first video and change to animate items as they are added to and removed from the DOM with the `:enter` and `:leave` aliases. So, if you’re not familiar with these concepts, the examples in this video might not make as much sense as they would if you were to watch them first.
+Then [I’ve got a post]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %}) where we build off the example in the first post and change to animate items as they are added to and removed from the DOM with the `:enter` and `:leave` aliases. So, if you’re not familiar with these concepts, the examples in this post might not make as much sense as they would if you were to watch them first.
 
 #### Angular Animation Tutorials:
 - [Learn the Basics]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %})
 - [Enter and Leave Animations]({% post_url /2024/02/2024-02-16-angular-animations-tutorial-enter-and-leave %})
 
-Ok, onto the example for this video.
+Ok, onto the example for this post.
 
 ## The Demo Application
 
@@ -239,7 +239,7 @@ Ok, now that we have these inverted, let’s save and see if we got it right.
 
 Nice, looks right when we close now, right? So again, this is a pretty crazy example. It’s really just used, in this case, to illustrate how keyframes work in Angular. I don’t recommend that you make menus that transition like this in production applications. But now, at least, you should have an understanding of how keyframes() can be used.
 
-Now, just like I mentioned in the last two videos on Angular Animations, there’s a lot to the animation framework so I’ll go ahead and stop here for now, but I will be creating several more videos covering much more on Angular animations very soon. 
+Now, just like I mentioned in the last two posts on Angular Animations, there’s a lot to the animation framework so I’ll go ahead and stop here for now, but I will be creating several more posts covering much more on Angular animations very soon. 
 
 ## Want to See It in Action?
 Check out the demo code and examples of these techniques in the in the stackblitz example below. If you have any questions or thoughts, don’t hesitate to leave a comment.

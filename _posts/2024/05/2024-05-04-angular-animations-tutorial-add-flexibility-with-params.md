@@ -68,7 +68,7 @@ In this demo we have a [slider component](https://stackblitz.com/edit/stackblitz
 
 The logic to control which image to show is based off this “selectedImage()” property. This means that these images are included conditionally so our animation for switching between them must use an `:enter` and `:leave` animation.
 
-The animation trigger is applied to the container wrapping the images, meaning it must use a `query()` to query for items entering and leaving every time the “selectedImage()” value changes.
+The animation trigger is applied to the container wrapping the images, meaning it must use a [`query()`](https://angular.io/api/animations/query) to query for items entering and leaving every time the “selectedImage()” value changes.
 
 And, for the final piece that makes all of this work, we have our “next” and “previous” image buttons that call a next and previous function when they are clicked, unless we’re at the end of the list for the next button, or we’re at the beginning of the list for the previous button. In those cases we are disabling the button.
 

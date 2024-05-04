@@ -328,7 +328,7 @@ So, it’s not added on initialization now, that’s good. And, it is properly a
 
 So now you have yet another animation tool available. You won’t always need these events, but it’s nice to know about them for when you do.
 
-Now remember, there’s still a lot to the animation framework, so I’ll go ahead and stop here for now. I’ll be creating several more videos on Angular animations very soon, so stay tuned!
+Now remember, there’s still a lot to the animation framework, so I’ll go ahead and stop here for now. I’ll be creating several more posts on Angular animations very soon, so stay tuned!
 
 ## Want to See It in Action?
 Check out the demo code and examples of these techniques in the in the Stackblitz example below. If you have any questions or thoughts, don’t hesitate to leave a comment.
