@@ -13,9 +13,9 @@ categories:
 
 ## Before We Get Started
 
-Now, before we get too far along, it’s important to note that I’ve already created several videos focused on the animation framework in Angular. They cover the basics of setting up and using Angular animations, creating state-based and `enter`/`leave` animations, using the `keyframes()`, `query()`, and `stagger()` functions to create more complex animation sequences, using the `start`/`done` animation events, and creating animations that run in parallel versus in sequence.
+Now, before we get too far along, it’s important to note that I’ve already created several posts focused on the animation framework in Angular. They cover the basics of setting up and using Angular animations, creating state-based and `enter`/`leave` animations, using the `keyframes()`, `query()`, and `stagger()` functions to create more complex animation sequences, using the `start`/`done` animation events, and creating animations that run in parallel versus in sequence.
 
-So, if any of those concepts are unfamiliar to you, you’ll probably want to check those videos out first so that you’re not lost in this video.
+So, if any of those concepts are unfamiliar to you, you’ll probably want to check those posts out first so that you’re not lost in this post.
 
 #### Angular CDK Overlay Tutorials:
 - [Learn the Basics]({% post_url /2024/02/2024-02-09-angular-animations-tutorial-learn-the-basics %})
@@ -27,7 +27,7 @@ So, if any of those concepts are unfamiliar to you, you’ll probably want to ch
 
 And, to make them easier to find, I’ve created an [Angular Animations playlist](https://youtube.com/playlist?list=PLp-SHngyo0_ikgEN5d9VpwzwXA-eWewSM&si=3WnQgeDxdAZJGGFy) on my [YouTube channel](https://www.youtube.com/@briantreese) to help, so check it out!
 
-Ok, enough of that, onto the example for this video.
+Ok, enough of that, onto the example for this post.
 
 ## The Demo Application
 
