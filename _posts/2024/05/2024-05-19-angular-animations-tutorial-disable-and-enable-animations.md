@@ -24,8 +24,7 @@ Now, before we get too far along, it’s important to note that I’ve already c
 - [Parallel Animations]({% post_url /2024/03/2024-03-15-angular-animations-tutorial-parallel-animations %})
 - [Animating to an unknown height]({% post_url /2024/03/2024-03-29-angular-animations-tutorial-animating-height %})
 - [Adding Flexibility with Params]({% post_url /2024/05/2024-05-04-angular-animations-tutorial-add-flexibility-with-params %})
-- [Creating Reusable Animations]({% post_url /2024/05/2024-05-04-angular-animations-tutorial-add-flexibility-with-params %})
-- [Adding Flexibility with Params]({% post_url /2024/05/2024-05-11-angular-animations-tutorial-creating-reusable-animations %})
+- [Creating Reusable Animations]({% post_url /2024/05/2024-05-11-angular-animations-tutorial-creating-reusable-animations %})
 
 These posts cover many different animation topics so if any of these concepts look unfamiliar to you, you’ll probably want to check these posts out first so that you’re not lost in this example.
 
