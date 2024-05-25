@@ -226,7 +226,7 @@ import { transition, trigger, useAnimation } from "@angular/animations";
 And that should be everything. If we click the hamburger button to toggle the menu now, it it transitions like we want. And if we close it, it should slide out now too.
 
 <div>
-<img src="{{ '/assets/img/content/uploads/2024/05-11/demo-3.gif' | relative_url }}" alt="Example of the menu opening and closing width reasuable slide animations" width="592" height="980" style="width: 100%; height: auto;">
+<img src="{{ '/assets/img/content/uploads/2024/05-11/demo-3.gif' | relative_url }}" alt="Example of the menu opening and closing width reusable slide animations" width="592" height="980" style="width: 100%; height: auto;">
 </div>
 
 ### Conclusion
