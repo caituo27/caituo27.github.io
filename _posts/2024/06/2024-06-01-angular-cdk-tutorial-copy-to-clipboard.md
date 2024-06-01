@@ -15,10 +15,10 @@ categories:
 
 For the example in this post, we’ll be working with [this demo application](https://stackblitz.com/edit/stackblitz-starters-b8gbzr?file=src%2Fslider%2Fshare%2Fshare.component.html), Petpix. It’s an app where people can share cool images of their pets.
 
-Here, we’re looking at an image gallery where we can navigate between the images. In the uper right corner of each image, there’s a share button. When we click this button, we get a form containing a message and a link to this image. We also have a copy button.
+Here, we’re looking at an image gallery where we can navigate between the images. In the upper right corner of each image, there’s a share button. When we click this button, we get a form containing a message and a link to this image. We also have a copy button.
 
 <div>
-<img src="{{ '/assets/img/content/uploads/2024/06-01/demo-1.gif' | relative_url }}" alt="Example of a demo pet image galler application built with Angular" width="592" height="622" style="width: 100%; height: auto;">
+<img src="{{ '/assets/img/content/uploads/2024/06-01/demo-1.gif' | relative_url }}" alt="Example of a demo pet image gallery application built with Angular" width="592" height="622" style="width: 100%; height: auto;">
 </div>
 
 Right now, the copy button isn’t wired up to do anything, so when we click it nothing happens. And, it’s probably pretty obvious, but we want this button to copy the contents of the form field to the user’s clipboard so that they can then paste it in a text message, or an email, or something else.

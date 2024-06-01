@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Angular Animations Tutorial: Creating Reusable Animations"
+title: "Angular Animations Tutorial: Disable and Enable Animations"
 date: "2024-05-19"
 video_id: "dzeJGyGI4BY"
 categories: 
