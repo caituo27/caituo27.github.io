@@ -148,7 +148,7 @@ Well that sort of worked, some styles were applied but they shouldn’t be apply
 Well, this is happening because by default, if the URL is matched at all, even if it’s just a subset of the full URL, like it is in this case, it will be active.
 
 <div>
-<img src="{{ '/assets/img/content/uploads/2024/06-08/demo-5.gif' | relative_url }}" alt="Calling out that the blog breadcrumb path is included in the blog post url causing it to highlihgted active when we don't want it to be" width="1686" height="608" style="width: 100%; height: auto;">
+<img src="{{ '/assets/img/content/uploads/2024/06-08/demo-5.gif' | relative_url }}" alt="Calling out that the blog breadcrumb path is included in the blog post url causing it to highlighted active when we don't want it to be" width="1686" height="608" style="width: 100%; height: auto;">
 </div>
 
 In this case, the blog page path is:
@@ -157,7 +157,7 @@ In this case, the blog page path is:
 https://stackblitzstartersfkak21-wiab--4200--c3e5e364.local-credentialless.webcontainer.io/blog
 ```
 
-And, ths post page path is:
+And, the post page path is:
 ```
 https://stackblitzstartersfkak21-wiab--4200--c3e5e364.local-credentialless.webcontainer.io/blog/post?title=Instagram%20Told%20Ars%20Technica%20it%20was%20%22Exploring%22%20More%20Ways%20for%20Users%20to%20Control%20Embedding
 ```
