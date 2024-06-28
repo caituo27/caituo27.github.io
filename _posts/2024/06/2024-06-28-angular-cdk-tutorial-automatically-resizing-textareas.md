@@ -89,7 +89,7 @@ Now we can see that the textarea no longer defaults to a height of two rows, ins
 <img src="{{ '/assets/img/content/uploads/2024/06-28/demo-3.gif' | relative_url }}" alt="Example of the cdkTextareaAutosize directive partially functioning but without the proper styles" width="712" height="932" style="width: 100%; height: auto;">
 </div>
 
-So, it looks like it's not working properly, buut there’s a simple fix for these issues.
+So, it looks like it's not working properly, but there’s a simple fix for these issues.
 
 ### Including Angular CDK Auto-size Styles for Proper textarea Height Calculation 
 
