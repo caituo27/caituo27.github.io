@@ -37,15 +37,9 @@ Ok, let’s look at some code.
 
 ## How to Auto-Resize textareas in Angular Using the cdkTextareaAutosize Directive
 
-Here we have a [slider component](https://stackblitz.com/edit/stackblitz-starters-fq1rmg?file=src%2Fslider%2Fslider.component.html) that contains the markup and logic for our image gallery. At the bottom of the template, there’s a description form component.
+Within the [slider component](https://stackblitz.com/edit/stackblitz-starters-fq1rmg?file=src%2Fslider%2Fslider.component.html), at the bottom of the template, there’s a description form component. Let’s take a look at the template for [this component](https://stackblitz.com/edit/stackblitz-starters-fq1rmg?file=src%2Fslider%2Fdescription-form%2Fdescription-form.component.html) to see what we’re working with. 
 
-#### slider.component.html
-```html
-...
-<app-description-form></app-description-form>
-```
-
-Let’s take a look at the template for [this description form component](https://stackblitz.com/edit/stackblitz-starters-fq1rmg?file=src%2Fslider%2Fdescription-form%2Fdescription-form.component.html) to see what we’re working with. Within the template, there's a standard textarea element.
+Within the template, there's a standard textarea element.
 
 #### desription-form.component.html
 ```html
@@ -58,13 +52,13 @@ Let’s take a look at the template for [this description form component](https:
 </section>
 ```
 
-Now, this may vary some in different browsers, but here in Chrome, the default height for a textarea is two rows. So, if we type in this textarea, then hit return to go to a new line, we can see that it fits two rows of text. Then if we hit return again and add another line, we get a scrollbar.
+Now, this may vary some in different browsers, but here in Chrome, the default height for a textarea will show two rows of text. So, if we type in this textarea, then hit return to go to a new line, we can see that it fits two rows of text perfectly. Then if we hit return again and add another line, we get a scrollbar.
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2024/06-28/demo-2.gif' | relative_url }}" alt="Example of a standard textarea not automatically resizing when adding and removing content" width="710" height="922" style="width: 100%; height: auto;">
 </div>
 
-Of course, this is what we want to change. To do this, let’s add the [cdkTextareaAutosize](https://material.angular.io/cdk/text-field/api#CdkTextareaAutosize) directive. But first, we need to import this module in our description form component.
+And this is what we want to change. To do this, we'll add the [cdkTextareaAutosize](https://material.angular.io/cdk/text-field/api#CdkTextareaAutosize) directive. But first, we need to import this module in our description form component.
 
 #### desription-form.component.ts
 ```typescript
@@ -89,13 +83,13 @@ Ok, now we can switch back to the template and add the directive to the textarea
 
 And that’s all we need, now let’s save and see how it works.
 
-Now we can see that the textarea is no longer defaulting to show two rows, it’s only accounting for a single row, so the directive appears to be doing its job. But what’s a little odd is that we’re seeing a scrollbar. Now, it does automatically resize as we add more rows, but when we clear it all out, it doesn't resize smaller.
+Now we can see that the textarea no longer defaults to a height of two rows, instead it accounts for only a single row. So the directive appears to be doing its job. But what’s a little odd is that there's a scrollbar even when no text has been added. It does automatically resize as content is added, but when the content is cleared out, it doesn't resize back down to the initial height.
 
 <div>
 <img src="{{ '/assets/img/content/uploads/2024/06-28/demo-3.gif' | relative_url }}" alt="Example of the cdkTextareaAutosize directive partially functioning but without the proper styles" width="712" height="932" style="width: 100%; height: auto;">
 </div>
 
-Well, it looks like that’s not working properly. So, we have some issues, but there’s a simple fix for them.
+So, it looks like it's not working properly, buut there’s a simple fix for these issues.
 
 ### Including Angular CDK Auto-size Styles for Proper textarea Height Calculation 
 
@@ -125,7 +119,7 @@ Ok, this looks promising now right? There’s no more scrollbar. Now when we add
 <img src="{{ '/assets/img/content/uploads/2024/06-28/demo-4.gif' | relative_url }}" alt="Example of the cdkTextareaAutosize directive functioning correctly with proper styles included" width="598" height="908" style="width: 100%; height: auto;">
 </div>
 
-Nice, it all seems to be working correctly too.
+Nice, it all seems to be working correctly now.
 
 So, if you use this directive, you’ll just need to be sure to add those styles or it’ll never work correctly.
 
