@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular Tutorial: Host Element Binding"
-date: "2024-06-28"
+date: "2024-07-05"
 video_id: "hfu0edMz_fk"
 categories: 
   - "angular"
