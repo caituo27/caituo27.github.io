@@ -19,10 +19,10 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-    - title: Blog
-      url: /
     - title: About
       url: /about
+    - title: Blog
+      url: /
     - title: Contact
       url: /contact
 
