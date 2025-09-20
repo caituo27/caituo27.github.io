@@ -10,13 +10,19 @@ title: Contact Me
     <p>Email is the best way to <a href="mailto:caituo27@gmail.com">reach me</a> and I'll respond as soon as I can. You can also connect through the social links in the footer.</p>
     <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
   </div>
-  <form action="https://formspree.io/f/xovngpwg" method="POST">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" class="full-width" />
-    <label for="email">Email Address</label>
-    <input type="email" id="email" name="_replyto" class="full-width" />
-    <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea>
-    <input type="submit" value="Send" class="button" />
-  </form>
+  <form
+  action="https://formspree.io/f/xovngpwg"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 </div>
