@@ -22,6 +22,6 @@ title: Contact Me
     Your message:
     <textarea name="message" cols="30" rows="10" class="full-width"></textarea>
   </label>
-  <button type="submit" value="Send">Send</button>
+  <button type="submit" value="Send" class="button">Send</button>
 </form>
 </div>
