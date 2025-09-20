@@ -33,10 +33,10 @@
 		property="og:image"
 	/>
 	{%- else -%}
-	<meta
-		content="{{ '/assets/img/touring.jpg' | absolute_url }}"
-		property="og:image"
-	/>
+        <meta
+                content="{{ '/assets/img/snow-mountain.svg' | absolute_url }}"
+                property="og:image"
+        />
 	{%- endif -%}
 
 	<!-- Twitter Cards -->
@@ -59,14 +59,14 @@
 		content="{{ '/assets/img/' | append:page.image | absolute_url }}"
 	/>
 	{%- else -%}
-	<meta
-		name="twitter:image:src"
-		content="{{ '/assets/img/touring.jpg' | absolute_url }}"
-	/>
+        <meta
+                name="twitter:image:src"
+                content="{{ '/assets/img/snow-mountain.svg' | absolute_url }}"
+        />
 	{%- endif -%}
 
 	<!-- Favicon -->
-	<link rel="icon" type="image/x-icon" href="{{/assets/img/favicon.ico | relative_url }}"/>
+        <link rel="icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" />
 
 	<!-- Come and get me RSS readers -->
 	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}"

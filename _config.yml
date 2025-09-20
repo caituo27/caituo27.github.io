@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Cai Tuo Blog
+description: Reflections on software engineering, creativity, and life in the mountains.
 
-url: https://long-haul.netlify.app
+url: https://caituoblog.com
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
@@ -19,23 +19,25 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-    - title: Home
-      url: /index.html
+    - title: Blog
+      url: /
     - title: About
       url: /about
+    - title: Archive
+      url: /articles
     - title: Contact
       url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+    github: caituo27
+    twitter: caituowrites
+    facebook: caituoblog
+    email: hello@caituoblog.com
+    linkedin: cai-tuo
+    youtube: caituostudio
+    tumblr: caituoblog
 
 google_analytics: "UA-58263416-1"
 
 disqus:
-    shortname: brianmaierjr
+    shortname:
