@@ -16,11 +16,11 @@ title: Contact Me
 >
   <label>
     Your email:
-    <input type="email" name="email">
+    <input type="email" name="email" class="full-width">
   </label>
   <label>
     Your message:
-    <textarea name="message"></textarea>
+    <textarea name="message" cols="30" rows="10" class="full-width"></textarea>
   </label>
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
