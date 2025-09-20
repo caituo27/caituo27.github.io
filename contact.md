@@ -7,7 +7,7 @@ title: Contact Cai Tuo
   <h1 class="pageTitle">Contact Cai Tuo</h1>
   <div class="contactContent">
     <p class="intro">Have a question about a post, a collaboration idea, or want to say hello? I'd love to hear from you.</p>
-    <p>Email is the best way to reach me—drop a note to <a href="mailto:hello@caituoblog.com">hello@caituoblog.com</a> and I'll respond as soon as I can. You can also connect through the social links in the footer.</p>
+    <p>Email is the best way to reach me—drop a note to <a href="mailto:caituo27@gmail.com">caituo27@gmail.com</a> and I'll respond as soon as I can. You can also connect through the social links in the footer.</p>
     <p>If you prefer using a form, fill out the fields below and your message will head straight to my inbox.</p>
   </div>
   <form action="https://formspree.io/f/your-form-id" method="POST">

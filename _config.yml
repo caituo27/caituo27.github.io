@@ -1,4 +1,4 @@
-title: Cai Tuo Blog
+title: CaiTuo's Blog
 description: Reflections on software engineering, creativity, and life in the mountains.
 
 url: https://caituoblog.com
@@ -29,11 +29,11 @@ navigation:
 social:
     github: caituo27
     twitter: caituowrites
-    facebook: caituoblog
-    email: hello@caituoblog.com
-    linkedin: cai-tuo
+    facebook:
+    email:
+    linkedin:
     youtube: caituostudio
-    tumblr: caituoblog
+    tumblr:
 
 google_analytics: "UA-58263416-1"
 
