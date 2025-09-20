@@ -23,8 +23,6 @@ navigation:
       url: /
     - title: About
       url: /about
-    - title: Archive
-      url: /articles
     - title: Contact
       url: /contact
 
