@@ -71,12 +71,20 @@ HEADER STYLING
 		overflow: hidden;
 	}
 
-	h1 {
-		font-size: 3em;
-		line-height: 1;
-		letter-spacing: -3px;
-		padding-left: 0;
-	}
+        h1 {
+                font-size: 3em;
+                line-height: 1;
+                letter-spacing: -3px;
+                padding-left: 0;
+
+                .logo__char {
+                        margin-right: -3px;
+
+                        &:last-child {
+                                margin-right: 0;
+                        }
+                }
+        }
 
 	nav {
 		float: left;

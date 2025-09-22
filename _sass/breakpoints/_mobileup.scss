@@ -180,10 +180,10 @@ HEADER STYLING
 ***************/
 
 .header {
-	background-color: $background-color;
+        background-color: $background-color;
     background-image: url("../img/snow-mountain.svg");
-	background-size: cover;
-	background-position: center center;
+        background-size: cover;
+        background-position: center center;
 	color: white;
 	padding: 0;
 	height: 3em;
@@ -206,8 +206,41 @@ HEADER STYLING
 		a {
 			color: white;
 			text-decoration: none;
-		}
-	}
+                }
+        }
+}
+
+.logo {
+        a {
+                display: inline-block;
+                position: relative;
+                overflow: visible;
+                white-space: nowrap;
+        }
+}
+
+.logo__char {
+        display: inline-block;
+        transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+}
+
+.logo a.logo--animating .logo__char {
+        animation: logo-spread 0.9s ease-in-out;
+}
+
+@keyframes logo-spread {
+        0% {
+                transform: translateX(0);
+        }
+
+        45% {
+                transform: translateX(calc(var(--char-offset, 0) * 0.8rem));
+        }
+
+        100% {
+                transform: translateX(0);
+        }
 }
 
 /***************
