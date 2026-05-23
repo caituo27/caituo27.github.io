@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Blog Archive
+title: Writing
+permalink: /articles/
 ---
 
 <div id="articles">
-  <h1>Blog Archive</h1>
+  <h1>Writing</h1>
   <ul class="posts noList">
     {%- for post in site.posts -%}
       <li>

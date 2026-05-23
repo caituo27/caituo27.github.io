@@ -1,36 +1,75 @@
 ---
 layout: default
-title: CaiTuo's Blog
+title: Cai Tuo
+description: 软件工程师，关注 AI 产品、后端系统与长期写作。
 ---
 
-<div class="home" id="home">
-        <h1 class="pageTitle">Latest Blog</h1>
-	<div class="posts noList">
-		{%- for post in paginator.posts -%}
-		<article>
-			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-			<h3>
-				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-			</h3>
-			<p>
-				{%- if post.description -%}{{ post.description }}{%- else -%}{{
-				post.excerpt | strip_html }}{%- endif -%}
-			</p>
-		</article>
-		{%- endfor -%}
-	</div>
-	<!-- Pagination links -->
-	<div class="pagination">
-		{%- if paginator.previous_page -%}
-		<a
-			href="{{ paginator.previous_page_path | relative_url }}"
-			class="previous button__outline"
-			>Newer Posts</a
-		>
-		{%- endif -%} {%- if paginator.next_page -%}
-		<a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline"
-			>Older Posts</a
-		>
-		{%- endif -%}
-	</div>
-</div>
+<main class="profile-home" id="home">
+	<section class="profile-hero" aria-labelledby="profile-title">
+		<div class="profile-hero__content">
+			<p class="profile-kicker">Software Engineer / Builder</p>
+			<h1 id="profile-title">Cai Tuo</h1>
+			<p class="profile-hero__lede">把复杂系统做清楚，把想法变成可运行的产品。</p>
+			<div class="profile-actions" aria-label="主要链接">
+				<a class="profile-button profile-button--primary" href="https://github.com/{{ site.social.github }}">GitHub</a>
+				<a class="profile-button profile-button--secondary" href="{{ '/articles' | relative_url }}">阅读文章</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="profile-section profile-intro" aria-labelledby="profile-intro-title">
+		<p class="profile-section__eyebrow">Focus</p>
+		<h2 id="profile-intro-title">在工程、产品和表达之间保持清晰。</h2>
+		<p>我关注 AI 应用、后端系统、工具效率和长期写作。这个页面用于沉淀项目、文章和一些持续构建中的想法。</p>
+	</section>
+
+	<section class="profile-section profile-focus" aria-labelledby="profile-focus-title">
+		<div class="profile-section__header">
+			<p class="profile-section__eyebrow">Work</p>
+			<h2 id="profile-focus-title">正在投入的方向</h2>
+		</div>
+		<div class="profile-focus__list">
+			<article>
+				<span>01</span>
+				<h3>AI 产品</h3>
+				<p>把模型能力落到真实业务流程里，关注可用性、反馈闭环和稳定交付。</p>
+			</article>
+			<article>
+				<span>02</span>
+				<h3>后端系统</h3>
+				<p>围绕接口契约、数据一致性和可维护性，构建可靠的服务基础。</p>
+			</article>
+			<article>
+				<span>03</span>
+				<h3>写作记录</h3>
+				<p>记录工程判断、产品观察和个人成长中的关键问题。</p>
+			</article>
+		</div>
+	</section>
+
+	<section class="profile-section profile-writing" aria-labelledby="profile-writing-title">
+		<div class="profile-section__header">
+			<p class="profile-section__eyebrow">Writing</p>
+			<h2 id="profile-writing-title">最近文章</h2>
+		</div>
+		<div class="profile-writing__list">
+			{%- for post in site.posts limit:3 -%}
+			<article>
+				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+				<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+				<p>{%- if post.description -%}{{ post.description }}{%- else -%}{{ post.excerpt | strip_html | strip_newlines | truncate: 96 }}{%- endif -%}</p>
+			</article>
+			{%- endfor -%}
+		</div>
+		<a class="profile-link" href="{{ '/articles' | relative_url }}">查看全部文章</a>
+	</section>
+
+	<section class="profile-section profile-contact" aria-labelledby="profile-contact-title">
+		<p class="profile-section__eyebrow">Connect</p>
+		<h2 id="profile-contact-title">欢迎交流产品、工程和长期构建。</h2>
+		<div class="profile-actions">
+			<a class="profile-button profile-button--primary" href="mailto:{{ site.social.email }}">发送邮件</a>
+			<a class="profile-button profile-button--secondary" href="https://github.com/{{ site.social.github }}">查看 GitHub</a>
+		</div>
+	</section>
+</main>

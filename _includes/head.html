@@ -2,8 +2,8 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="" />
-	<title>{{ page.title }}</title>
+	<meta name="description" content="{{ page.description | default: site.description }}" />
+	<title>{%- if page.title == site.title -%}{{ site.title }}{%- elsif page.title -%}{{ page.title }} | {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}</title>
 
 	<!-- Open Graph Meta -->
 	<meta content="{{ site.title }}" property="og:site_name" />

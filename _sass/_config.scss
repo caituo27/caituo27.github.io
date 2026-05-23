@@ -20,16 +20,16 @@ $purple:  #B10DC9;
 $maroon:  #85144B;
 // Gray Scale
 $white:  #fff;
-$silver: #ddd;
-$grey:   #aaa;
-$black:  #111;
+$silver: #d2d2d7;
+$grey:   #86868b;
+$black:  #1d1d1f;
 
 // Color variables
-$primary-color: seagreen;
-$secondary-color: #233E5B;
-$tertiary-color: #aaa;
+$primary-color: #0071e3;
+$secondary-color: #1d1d1f;
+$tertiary-color: #86868b;
 $link-color: $primary-color;
-$background-color: $primary-color;
+$background-color: #fbfbfd;
 
 $bad-color: $red; // Bad color for errors, validation etc.
 $good-color: $green; // Good color for success etc.
@@ -52,5 +52,5 @@ $line-height: 44px; // Consistent height for buttons, inputs etc.
 TYPE SETTINGS
 ***************/
 
-$sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
-$serif: "PT Serif", Georgia, Times, serif;
+$sans-serif: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+$serif: Georgia, Times, serif;

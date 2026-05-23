@@ -295,3 +295,151 @@ DARK THEME STYLING
 		background: black;
 	}
 }
+
+/***************
+APPLE PROFILE REFRESH
+***************/
+
+body {
+	font-size: 112.5%;
+}
+
+.content:after {
+	display: none;
+}
+
+.container,
+.footer .container {
+	max-width: 1120px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.header {
+	height: auto;
+	min-height: 56px;
+	padding-bottom: 0;
+
+	.container {
+		top: auto;
+		transform: none;
+		overflow: visible;
+	}
+
+	h1 {
+		font-size: 0.95rem;
+		line-height: 1;
+		letter-spacing: 0;
+
+		.logo__char {
+			margin-right: 0;
+		}
+	}
+
+	nav {
+		float: none;
+		clear: none;
+
+		ul {
+			display: flex;
+			align-items: center;
+			gap: 0.35rem;
+		}
+
+		ul li {
+			display: inline-flex;
+			align-items: center;
+			width: auto;
+			padding: 0;
+			line-height: 1;
+
+			a {
+				color: #424245;
+				font-size: 0.82rem;
+				padding: 0.35rem 0.55rem;
+
+				&:hover {
+					color: #1d1d1f;
+				}
+			}
+
+			&.current {
+				border-bottom: none;
+
+				a {
+					color: #1d1d1f;
+				}
+			}
+		}
+	}
+}
+
+.js .nav-collapse {
+	position: relative;
+	left: auto;
+	top: auto;
+	width: auto;
+	background: transparent;
+	border-bottom: 0;
+	box-shadow: none;
+
+	&.opened ul li {
+		display: inline-flex;
+		width: auto;
+	}
+}
+
+.profile-hero {
+	min-height: 74svh;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.profile-hero h1 {
+	font-size: 5.8rem;
+}
+
+.profile-hero__lede {
+	font-size: 1.28rem;
+}
+
+.profile-section {
+	padding: 5.75rem 32px;
+}
+
+.profile-section h2 {
+	font-size: 3rem;
+}
+
+.profile-focus__list {
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 3rem;
+}
+
+.profile-writing__list article {
+	display: grid;
+	grid-template-columns: 9rem minmax(0, 1fr);
+	column-gap: 2rem;
+}
+
+.profile-writing__list h3,
+.profile-writing__list p {
+	grid-column: 2;
+}
+
+.profile-writing__list time {
+	grid-row: 1 / span 2;
+	margin-bottom: 0;
+}
+
+#articles,
+#contact,
+.post {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.footer .container {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}

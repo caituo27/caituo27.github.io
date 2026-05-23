@@ -1,12 +1,12 @@
 ---
 layout: default
 title: About Cai Tuo
+permalink: /about/
 ---
 
 <div class="post">
   <h1 class="pageTitle">About Cai Tuo</h1>
-  <!-- <img src="{{ '/assets/img/snow-mountain.svg' | relative_url }}" alt="Illustrated snow-capped mountains under a blue sky" /> -->
-  <p class="intro">Welcome to the corner of the internet where I, Cai Tuo, collect reflections on software, creativity, and the journeys in between.</p>
-  <p>I build products, write about the lessons I learn along the way, and chase the same sense of clarity you get when hiking into crisp alpine air. This blog is a place to share ideas, document experiments, and celebrate the people and landscapes that inspire careful craftsmanship.</p>
-  <p>Expect deep dives into engineering topics, thoughtful notes on personal growth, and the occasional story about adventures in nature. If those themes resonate with you, I am glad you're here—explore the posts, share your thoughts, and let's keep the conversation going.</p>
+  <p class="intro">我是 Cai Tuo，关注 AI 产品、后端系统和长期写作。</p>
+  <p>我喜欢把复杂问题拆成清晰的结构，再把结构落到可运行的产品里。这里会记录一些工程判断、产品观察和个人成长中的关键问题。</p>
+  <p>如果你也关注这些方向，可以从文章开始了解我，或通过邮件和 GitHub 联系我。</p>
 </div>
